@@ -1,0 +1,32 @@
+<div >
+    <div >
+        <div ng-controller="LocationListCtrl">
+
+
+    <!--Body content-->
+    <h2>Select Image</h2>
+    <select  ng-model="location" ng-options="location.name for location in locations"></select>
+
+    <!--<p> Selected Location Id : {{ location.id }}</p>-->
+<div class="container-fluid">
+
+  <!--  <p ng-repeat="images in location.images"><a href="#/image/{{images.name.replace('/','_')}}">
+         <img ng-src="images/{{images.name}}" class="thumb"></a></p>-->
+
+    <table class="">
+            <tr ng-repeat="images in location.images"><td><a href="#/image/{{images.name.replace('/','_')}}">
+                   <img  alt=""  ng-src="images/{{images.name}}" class="thumb"> </a> </td> <td>{{images.name}}</td></tr>
+    </table>
+
+
+
+
+
+
+
+</div>
+    <!--<p>F <{{ location.images }}></p>-->
+
+
+</div>
+    </div></div>

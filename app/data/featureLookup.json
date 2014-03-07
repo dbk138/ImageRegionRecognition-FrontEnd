@@ -1,0 +1,1206 @@
+{
+    "obj_MajorAxisLength_quantile750": {
+        "maxval": "608.7839",
+        "minval": "16.5381"
+    },
+    "obj_phase_congruency_min_moment_quantile250": {
+        "maxval": "0.0004",
+        "minval": "-0.0001"
+    },
+    "color_V_median": {
+        "maxval": "0.7552",
+        "minval": "0.179"
+    },
+    "color_G_quantile750": {
+        "maxval": "0.8099",
+        "minval": "0.1344"
+    },
+    "obj_Solidity_quantile250": {
+        "maxval": "0.8",
+        "minval": "0.4429"
+    },
+    "obj_MinorAxisLength_mean": {
+        "maxval": "93.6746",
+        "minval": "11.127"
+    },
+    "obj_BoundingBox_skewness": {
+        "maxval": "1.9747",
+        "minval": "0.2211"
+    },
+    "L1_200": {
+        "maxval": "0.5992661",
+        "minval": "0"
+    },
+    "obj_Orientation_std": {
+        "maxval": "75.6017",
+        "minval": "20.1261"
+    },
+    "obj_phase_congruency_orientation_quantile250": {
+        "maxval": "71",
+        "minval": "25"
+    },
+    "color_B_quantile750": {
+        "maxval": "0.7931",
+        "minval": "0.1912"
+    },
+    "obj_MinorAxisLength_quantile025": {
+        "maxval": "7.7099",
+        "minval": "1.4242"
+    },
+    "obj_Centroid_kurtosis": {
+        "maxval": "5.1595",
+        "minval": "1.2713"
+    },
+    "color_G_mean": {
+        "maxval": "0.7098",
+        "minval": "0.1373"
+    },
+    "color_B_quantile025": {
+        "maxval": "0.4939",
+        "minval": "0.0539"
+    },
+    "color_H_kurtosis": {
+        "maxval": "114.3081",
+        "minval": "1.091"
+    },
+    "texture_indnc_1": {
+        "maxval": "0.9839",
+        "minval": "0.8691"
+    },
+    "obj_FilledArea_quantile025": {
+        "maxval": "45",
+        "minval": "30"
+    },
+    "obj_EquivDiameter_quantile975": {
+        "maxval": "1099.634",
+        "minval": "28.4645"
+    },
+    "color_gray_quantile975": {
+        "maxval": "0.9035",
+        "minval": "0.3847"
+    },
+    "color_H_quantile750": {
+        "maxval": "0.9465",
+        "minval": "0.0794"
+    },
+    "color_gray_quantile025": {
+        "maxval": "0.5313",
+        "minval": "0.0418"
+    },
+    "obj_phase_congruency_min_moment_kurtosis": {
+        "maxval": "424.5087",
+        "minval": "21.7199"
+    },
+    "obj_MajorAxisLength_skewness": {
+        "maxval": "22.1329",
+        "minval": "1.1504"
+    },
+    "L1_150": {
+        "maxval": "0.5992699",
+        "minval": "0"
+    },
+    "obj_phase_congruency_orientation_quantile750": {
+        "maxval": "158",
+        "minval": "108"
+    },
+    "obj_phase_congruency_max_moment_quantile250": {
+        "maxval": "0.0074",
+        "minval": "0.0001"
+    },
+    "texture_svarh_1": {
+        "maxval": "102.8087",
+        "minval": "11.0956"
+    },
+    "texture_svarh_2": {
+        "maxval": "102.7958",
+        "minval": "11.1235"
+    },
+    "color_H_std": {
+        "maxval": "0.4336",
+        "minval": "0.0274"
+    },
+    "texture_inf2h_1": {
+        "maxval": "0.9739",
+        "minval": "0.4334"
+    },
+    "obj_phase_congruency_max_moment_mean": {
+        "maxval": "0.0463",
+        "minval": "0.0047"
+    },
+    "texture_inf2h_2": {
+        "maxval": "0.9751",
+        "minval": "0.3691"
+    },
+    "obj_ConvexArea_std": {
+        "maxval": "267767.8",
+        "minval": "4728.152"
+    },
+    "obj_MajorAxisLength_kurtosis": {
+        "maxval": "547.7522",
+        "minval": "2.3306"
+    },
+    "obj_EquivDiameter_quantile750": {
+        "maxval": "305.3952",
+        "minval": "9.9656"
+    },
+    "obj_Extent_mean": {
+        "maxval": "0.6418",
+        "minval": "0.2537"
+    },
+    "color_gray_quantile250": {
+        "maxval": "0.6366",
+        "minval": "0.1077"
+    },
+    "color_correlation_9": {
+        "maxval": "0.8894",
+        "minval": "0.0838"
+    },
+    "obj_Solidity_skewness": {
+        "maxval": "0.7546",
+        "minval": "-1.3359"
+    },
+    "obj_EquivDiameter_quantile250": {
+        "maxval": "12.3092",
+        "minval": "6.6756"
+    },
+    "color_R_quantile975": {
+        "maxval": "0.9205",
+        "minval": "0.4255"
+    },
+    "obj_FilledArea_std": {
+        "maxval": "256213",
+        "minval": "3011.965"
+    },
+    "texture_entro_2": {
+        "maxval": "3.6754",
+        "minval": "1.7021"
+    },
+    "color_correlation_1": {
+        "maxval": "0.9718",
+        "minval": "0.5782"
+    },
+    "obj_MajorAxisLength_median": {
+        "maxval": "45.9447",
+        "minval": "13.3038"
+    },
+    "color_correlation_4": {
+        "maxval": "0.933",
+        "minval": "0.1653"
+    },
+    "obj_WeightedCentroid_mean": {
+        "maxval": "759.7731",
+        "minval": "270.5492"
+    },
+    "obj_Solidity_quantile025": {
+        "maxval": "0.5516",
+        "minval": "0.2866"
+    },
+    "obj_Eccentricity_quantile250": {
+        "maxval": "0.9625",
+        "minval": "0.6379"
+    },
+    "obj_Extent_quantile250": {
+        "maxval": "0.55",
+        "minval": "0.1716"
+    },
+    "obj_Extent_kurtosis": {
+        "maxval": "5.4433",
+        "minval": "1.9438"
+    },
+    "color_G_quantile975": {
+        "maxval": "0.9077",
+        "minval": "0.3763"
+    },
+    "obj_Eccentricity_mean": {
+        "maxval": "0.9418",
+        "minval": "0.7598"
+    },
+    "color_homogeneity_9": {
+        "maxval": "0.9667",
+        "minval": "0.5517"
+    },
+    "obj_ConvexArea_quantile750": {
+        "maxval": "140484",
+        "minval": "96"
+    },
+    "color_entropy": {
+        "maxval": "7.6595",
+        "minval": "5.096"
+    },
+    "obj_phase_congruency_orientation_quantile025": {
+        "maxval": "10",
+        "minval": "1"
+    },
+    "obj_Centroid_quantile025": {
+        "maxval": "233.7515",
+        "minval": "3.8298"
+    },
+    "obj_Solidity_quantile750": {
+        "maxval": "0.9277",
+        "minval": "0.5752"
+    },
+    "obj_phase_congruency_min_moment_skewness": {
+        "maxval": "15.5162",
+        "minval": "3.4292"
+    },
+    "obj_FilledArea_mean": {
+        "maxval": "69596",
+        "minval": "503.5335"
+    },
+    "obj_EquivDiameter_skewness": {
+        "maxval": "22.4959",
+        "minval": "1.1508"
+    },
+    "obj_Centroid_skewness": {
+        "maxval": "1.1337",
+        "minval": "-1.7882"
+    },
+    "obj_MajorAxisLength_quantile025": {
+        "maxval": "11.4309",
+        "minval": "7.1798"
+    },
+    "obj_Orientation_quantile750": {
+        "maxval": "86.7294",
+        "minval": "-36.4216"
+    },
+    "obj_MinorAxisLength_quantile975": {
+        "maxval": "1149.2",
+        "minval": "25.7988"
+    },
+    "color_S_median": {
+        "maxval": "0.4132",
+        "minval": "0.0379"
+    },
+    "color_H_quantile250": {
+        "maxval": "0.7348",
+        "minval": "0.0379"
+    },
+    "obj_Eccentricity_std": {
+        "maxval": "0.1976",
+        "minval": "0.0621"
+    },
+    "obj_phase_congruency_orientation_median": {
+        "maxval": "109",
+        "minval": "72"
+    },
+    "obj_MinorAxisLength_quantile750": {
+        "maxval": "182.5537",
+        "minval": "6.1175"
+    },
+    "obj_ConvexArea_quantile975": {
+        "maxval": "1002001",
+        "minval": "1342.3"
+    },
+    "texture_homop_2": {
+        "maxval": "0.935",
+        "minval": "0.4767"
+    },
+    "texture_homop_1": {
+        "maxval": "0.9315",
+        "minval": "0.4991"
+    },
+    "color_homogeneity_1": {
+        "maxval": "0.9885",
+        "minval": "0.7049"
+    },
+    "texture_dvarh_2": {
+        "maxval": "3.6775",
+        "minval": "0.186"
+    },
+    "color_B_median": {
+        "maxval": "0.7289",
+        "minval": "0.1785"
+    },
+    "color_B_mean": {
+        "maxval": "0.6943",
+        "minval": "0.1902"
+    },
+    "obj_EulerNumber_quantile975": {
+        "maxval": "1",
+        "minval": "1"
+    },
+    "obj_phase_congruency_max_moment_std": {
+        "maxval": "0.087",
+        "minval": "0.0163"
+    },
+    "color_S_quantile025": {
+        "maxval": "0.1839",
+        "minval": "0.0053"
+    },
+    "obj_Extent_std": {
+        "maxval": "0.2094",
+        "minval": "0.0923"
+    },
+    "obj_ConvexArea_median": {
+        "maxval": "433",
+        "minval": "65"
+    },
+    "color_V_kurtosis": {
+        "maxval": "21.5081",
+        "minval": "1.8494"
+    },
+    "obj_Perimeter_quantile250": {
+        "maxval": "52.163",
+        "minval": "25.5563"
+    },
+    "color_R_median": {
+        "maxval": "0.7496",
+        "minval": "0.1142"
+    },
+    "obj_phase_congruency_ft_std": {
+        "maxval": "0.9039",
+        "minval": "0.7909"
+    },
+    "obj_WeightedCentroid_kurtosis": {
+        "maxval": "5.1595",
+        "minval": "1.2713"
+    },
+    "obj_Centroid_median": {
+        "maxval": "832.5219",
+        "minval": "209.3939"
+    },
+    "texture_senth_1": {
+        "maxval": "2.588",
+        "minval": "1.5213"
+    },
+    "color_G_std": {
+        "maxval": "0.218",
+        "minval": "0.0472"
+    },
+    "texture_inf1h_1": {
+        "maxval": "-0.0555",
+        "minval": "-0.7581"
+    },
+    "obj_Area_quantile975": {
+        "maxval": "949700",
+        "minval": "636.425"
+    },
+    "color_V_quantile250": {
+        "maxval": "0.6595",
+        "minval": "0.1646"
+    },
+    "obj_WeightedCentroid_skewness": {
+        "maxval": "1.1337",
+        "minval": "-1.7882"
+    },
+    "obj_MinorAxisLength_skewness": {
+        "maxval": "23.1",
+        "minval": "1.1412"
+    },
+    "obj_Centroid_mean": {
+        "maxval": "759.7731",
+        "minval": "270.5492"
+    },
+    "obj_Solidity_median": {
+        "maxval": "0.8709",
+        "minval": "0.5072"
+    },
+    "obj_WeightedCentroid_quantile250": {
+        "maxval": "744.8333",
+        "minval": "39.1526"
+    },
+    "obj_phase_congruency_orientation_skewness": {
+        "maxval": "0.3068",
+        "minval": "-0.466"
+    },
+    "obj_WeightedCentroid_quantile025": {
+        "maxval": "233.7515",
+        "minval": "3.8298"
+    },
+    "texture_denth_2": {
+        "maxval": "1.5366",
+        "minval": "0.4224"
+    },
+    "L1_240": {
+        "maxval": "0.599266",
+        "minval": "0"
+    },
+    "L1_110": {
+        "maxval": "0.5992712",
+        "minval": "0"
+    },
+    "color_R_skewness": {
+        "maxval": "3.5385",
+        "minval": "-1.5182"
+    },
+    "obj_BoundingBox_kurtosis": {
+        "maxval": "6.8993",
+        "minval": "1.177"
+    },
+    "obj_BoundingBox_quantile750": {
+        "maxval": "924",
+        "minval": "198.5"
+    },
+    "obj_EulerNumber_mean": {
+        "maxval": "-0.3166",
+        "minval": "-377"
+    },
+    "obj_Eccentricity_quantile975": {
+        "maxval": "0.9998",
+        "minval": "0.9453"
+    },
+    "color_H_mean": {
+        "maxval": "0.7646",
+        "minval": "0.0778"
+    },
+    "L1_160": {
+        "maxval": "0.5999998",
+        "minval": "0"
+    },
+    "texture_sosvh_2": {
+        "maxval": "37.2293",
+        "minval": "5.0919"
+    },
+    "obj_FilledArea_quantile250": {
+        "maxval": "119",
+        "minval": "35"
+    },
+    "texture_cshad_2": {
+        "maxval": "59.1834",
+        "minval": "-80.0436"
+    },
+    "obj_phase_congruency_min_moment_median": {
+        "maxval": "0.0028",
+        "minval": "-0.0001"
+    },
+    "obj_FilledArea_quantile975": {
+        "maxval": "958741",
+        "minval": "683.5"
+    },
+    "color_S_kurtosis": {
+        "maxval": "61.3741",
+        "minval": "1.9938"
+    },
+    "texture_inf1h_2": {
+        "maxval": "-0.0391",
+        "minval": "-0.7708"
+    },
+    "texture_maxpr_2": {
+        "maxval": "0.5143",
+        "minval": "0.0568"
+    },
+    "obj_MinorAxisLength_quantile250": {
+        "maxval": "7.7914",
+        "minval": "3.1685"
+    },
+    "obj_Extent_skewness": {
+        "maxval": "1.1279",
+        "minval": "-0.9751"
+    },
+    "texture_senth_2": {
+        "maxval": "2.5812",
+        "minval": "1.522"
+    },
+    "color_V_std": {
+        "maxval": "0.2066",
+        "minval": "0.0496"
+    },
+    "obj_FilledArea_median": {
+        "maxval": "387",
+        "minval": "46"
+    },
+    "obj_Perimeter_quantile025": {
+        "maxval": "34.1588",
+        "minval": "18.4853"
+    },
+    "color_R_std": {
+        "maxval": "0.2314",
+        "minval": "0.0499"
+    },
+    "obj_phase_congruency_orientation_kurtosis": {
+        "maxval": "2.9051",
+        "minval": "1.3767"
+    },
+    "obj_phase_congruency_max_moment_kurtosis": {
+        "maxval": "117.7561",
+        "minval": "7.0148"
+    },
+    "texture_maxpr_1": {
+        "maxval": "0.5135",
+        "minval": "0.0554"
+    },
+    "obj_EulerNumber_median": {
+        "maxval": "1",
+        "minval": "-1"
+    },
+    "obj_phase_congruency_ft_median": {
+        "maxval": "0.1741",
+        "minval": "-0.4195"
+    },
+    "color_gray_median": {
+        "maxval": "0.7475",
+        "minval": "0.1208"
+    },
+    "color_B_kurtosis": {
+        "maxval": "35.017",
+        "minval": "2.0376"
+    },
+    "color_R_quantile250": {
+        "maxval": "0.6595",
+        "minval": "0.0991"
+    },
+    "texture_contr_1": {
+        "maxval": "3.1885",
+        "minval": "0.1966"
+    },
+    "texture_contr_2": {
+        "maxval": "3.6775",
+        "minval": "0.186"
+    },
+    "obj_Perimeter_kurtosis": {
+        "maxval": "713.9099",
+        "minval": "4.7886"
+    },
+    "obj_Perimeter_quantile975": {
+        "maxval": "9840.078",
+        "minval": "311.3417"
+    },
+    "color_S_std": {
+        "maxval": "0.2194",
+        "minval": "0.0186"
+    },
+    "obj_phase_congruency_min_moment_std": {
+        "maxval": "0.0325",
+        "minval": "0.0023"
+    },
+    "obj_Area_quantile750": {
+        "maxval": "127925.5",
+        "minval": "78"
+    },
+    "texture_cprom_1": {
+        "maxval": "832.7012",
+        "minval": "105.6764"
+    },
+    "L1_100": {
+        "maxval": "0.599268",
+        "minval": "0"
+    },
+    "texture_idmnc_2": {
+        "maxval": "0.9972",
+        "minval": "0.951"
+    },
+    "L1_255": {
+        "maxval": "0.59766",
+        "minval": "0"
+    },
+    "obj_FilledArea_quantile750": {
+        "maxval": "139107.5",
+        "minval": "78"
+    },
+    "color_gray_mean": {
+        "maxval": "0.7072",
+        "minval": "0.1437"
+    },
+    "obj_Orientation_median": {
+        "maxval": "70.1821",
+        "minval": "-78.1236"
+    },
+    "obj_Orientation_mean": {
+        "maxval": "31.6864",
+        "minval": "-39.7144"
+    },
+    "color_G_quantile250": {
+        "maxval": "0.636",
+        "minval": "0.0993"
+    },
+    "obj_Area_std": {
+        "maxval": "253796.7",
+        "minval": "2445.158"
+    },
+    "color_gray_std": {
+        "maxval": "0.2177",
+        "minval": "0.0474"
+    },
+    "texture_energ_1": {
+        "maxval": "0.2855",
+        "minval": "0.0332"
+    },
+    "texture_indnc_2": {
+        "maxval": "0.985",
+        "minval": "0.8604"
+    },
+    "color_H_quantile975": {
+        "maxval": "0.9939",
+        "minval": "0.1229"
+    },
+    "color_gray_quantile750": {
+        "maxval": "0.8061",
+        "minval": "0.1401"
+    },
+    "obj_phase_congruency_max_moment_quantile025": {
+        "maxval": "0.0001",
+        "minval": "0.0001"
+    },
+    "color_V_quantile750": {
+        "maxval": "0.8139",
+        "minval": "0.1922"
+    },
+    "obj_ConvexArea_mean": {
+        "maxval": "72606.25",
+        "minval": "833.8304"
+    },
+    "color_B_quantile250": {
+        "maxval": "0.6078",
+        "minval": "0.1643"
+    },
+    "obj_phase_congruency_max_moment_quantile975": {
+        "maxval": "0.3184",
+        "minval": "0.042"
+    },
+    "texture_energ_2": {
+        "maxval": "0.2858",
+        "minval": "0.032"
+    },
+    "color_V_quantile975": {
+        "maxval": "0.9205",
+        "minval": "0.4444"
+    },
+    "color_G_skewness": {
+        "maxval": "3.8736",
+        "minval": "-1.3434"
+    },
+    "texture_dissi_2": {
+        "maxval": "1.4494",
+        "minval": "0.1391"
+    },
+    "obj_Perimeter_mean": {
+        "maxval": "1317.64",
+        "minval": "102.9993"
+    },
+    "color_homogeneity_4": {
+        "maxval": "0.9754",
+        "minval": "0.5787"
+    },
+    "texture_corrm_1": {
+        "maxval": "0.9654",
+        "minval": "0.3995"
+    },
+    "obj_Area_kurtosis": {
+        "maxval": "723.4296",
+        "minval": "2.3683"
+    },
+    "obj_phase_congruency_max_moment_skewness": {
+        "maxval": "8.697",
+        "minval": "1.7956"
+    },
+    "obj_Area_skewness": {
+        "maxval": "26.8337",
+        "minval": "1.1638"
+    },
+    "obj_Centroid_quantile250": {
+        "maxval": "744.8333",
+        "minval": "39.1526"
+    },
+    "obj_MajorAxisLength_quantile250": {
+        "maxval": "20.1906",
+        "minval": "9.9127"
+    },
+    "texture_dissi_1": {
+        "maxval": "1.3409",
+        "minval": "0.1531"
+    },
+    "color_S_quantile750": {
+        "maxval": "0.5129",
+        "minval": "0.0645"
+    },
+    "obj_EquivDiameter_kurtosis": {
+        "maxval": "559.4379",
+        "minval": "2.3373"
+    },
+    "obj_MinorAxisLength_std": {
+        "maxval": "305.1508",
+        "minval": "16.992"
+    },
+    "texture_autoc_2": {
+        "maxval": "37.0569",
+        "minval": "5.0184"
+    },
+    "obj_BoundingBox_median": {
+        "maxval": "324.5",
+        "minval": "21.25"
+    },
+    "color_V_mean": {
+        "maxval": "0.7197",
+        "minval": "0.1948"
+    },
+    "color_H_median": {
+        "maxval": "0.8119",
+        "minval": "0.0614"
+    },
+    "obj_BoundingBox_quantile025": {
+        "maxval": "8",
+        "minval": "0.5"
+    },
+    "color_H_skewness": {
+        "maxval": "10.2789",
+        "minval": "-4.2969"
+    },
+    "obj_phase_congruency_ft_quantile750": {
+        "maxval": "0.9138",
+        "minval": "0.4093"
+    },
+    "obj_Solidity_mean": {
+        "maxval": "0.8521",
+        "minval": "0.5197"
+    },
+    "color_energy_4": {
+        "maxval": "0.825",
+        "minval": "0.0549"
+    },
+    "texture_savgh_1": {
+        "maxval": "11.5093",
+        "minval": "3.7852"
+    },
+    "color_energy_1": {
+        "maxval": "0.8356",
+        "minval": "0.0784"
+    },
+    "obj_ConvexArea_quantile250": {
+        "maxval": "136",
+        "minval": "42"
+    },
+    "obj_Extent_median": {
+        "maxval": "0.6826",
+        "minval": "0.2348"
+    },
+    "obj_Perimeter_quantile750": {
+        "maxval": "1544.274",
+        "minval": "42.6274"
+    },
+    "obj_WeightedCentroid_std": {
+        "maxval": "400.372",
+        "minval": "193.2411"
+    },
+    "color_G_kurtosis": {
+        "maxval": "19.317",
+        "minval": "1.8988"
+    },
+    "color_energy_9": {
+        "maxval": "0.8156",
+        "minval": "0.051"
+    },
+    "color_gray_skewness": {
+        "maxval": "3.8401",
+        "minval": "-1.3934"
+    },
+    "obj_Area_median": {
+        "maxval": "383",
+        "minval": "46"
+    },
+    "obj_EulerNumber_skewness": {
+        "maxval": "-2.2678",
+        "minval": "-26.8904"
+    },
+    "L1_210": {
+        "maxval": "0.5999954",
+        "minval": "0"
+    },
+    "obj_Centroid_std": {
+        "maxval": "400.372",
+        "minval": "193.2411"
+    },
+    "obj_Orientation_quantile250": {
+        "maxval": "23.1228",
+        "minval": "-88.0491"
+    },
+    "obj_FilledArea_skewness": {
+        "maxval": "26.853",
+        "minval": "1.1547"
+    },
+    "color_S_quantile975": {
+        "maxval": "0.7045",
+        "minval": "0.1243"
+    },
+    "texture_dvarh_1": {
+        "maxval": "3.1885",
+        "minval": "0.1966"
+    },
+    "obj_Eccentricity_median": {
+        "maxval": "0.9879",
+        "minval": "0.7892"
+    },
+    "obj_Eccentricity_quantile750": {
+        "maxval": "0.996",
+        "minval": "0.8877"
+    },
+    "obj_BoundingBox_quantile250": {
+        "maxval": "19",
+        "minval": "10"
+    },
+    "obj_EulerNumber_quantile750": {
+        "maxval": "1",
+        "minval": "0"
+    },
+    "obj_EquivDiameter_quantile025": {
+        "maxval": "7.2252",
+        "minval": "6.1804"
+    },
+    "obj_Orientation_quantile975": {
+        "maxval": "90",
+        "minval": "57.3105"
+    },
+    "obj_EulerNumber_quantile025": {
+        "maxval": "-3",
+        "minval": "-3449.6"
+    },
+    "color_S_mean": {
+        "maxval": "0.3826",
+        "minval": "0.0461"
+    },
+    "obj_MajorAxisLength_quantile975": {
+        "maxval": "1308.669",
+        "minval": "60.4006"
+    },
+    "texture_autoc_1": {
+        "maxval": "37.0698",
+        "minval": "5.0087"
+    },
+    "texture_cshad_1": {
+        "maxval": "59.9038",
+        "minval": "-79.9839"
+    },
+    "obj_Area_quantile025": {
+        "maxval": "41",
+        "minval": "30"
+    },
+    "color_gray_kurtosis": {
+        "maxval": "21.9171",
+        "minval": "1.8986"
+    },
+    "color_contrast_9": {
+        "maxval": "2.5755",
+        "minval": "0.1264"
+    },
+    "color_B_quantile975": {
+        "maxval": "0.9037",
+        "minval": "0.2882"
+    },
+    "obj_MinorAxisLength_median": {
+        "maxval": "12.0616",
+        "minval": "3.8701"
+    },
+    "texture_denth_1": {
+        "maxval": "1.4761",
+        "minval": "0.4421"
+    },
+    "color_contrast_4": {
+        "maxval": "2.17",
+        "minval": "0.078"
+    },
+    "obj_Eccentricity_skewness": {
+        "maxval": "-0.0282",
+        "minval": "-3.2881"
+    },
+    "color_contrast_1": {
+        "maxval": "0.9499",
+        "minval": "0.024"
+    },
+    "obj_Orientation_kurtosis": {
+        "maxval": "14.5914",
+        "minval": "1.2815"
+    },
+    "color_S_skewness": {
+        "maxval": "4.168",
+        "minval": "-1.3446"
+    },
+    "texture_corrm_2": {
+        "maxval": "0.971",
+        "minval": "0.321"
+    },
+    "obj_phase_congruency_ft_quantile250": {
+        "maxval": "-0.5602",
+        "minval": "-0.9745"
+    },
+    "obj_phase_congruency_min_moment_mean": {
+        "maxval": "0.0131",
+        "minval": "0.0003"
+    },
+    "obj_BoundingBox_mean": {
+        "maxval": "426.7188",
+        "minval": "141.7726"
+    },
+    "obj_Orientation_quantile025": {
+        "maxval": "-39.0495",
+        "minval": "-89.9159"
+    },
+    "obj_EquivDiameter_mean": {
+        "maxval": "156.5295",
+        "minval": "11.9075"
+    },
+    "texture_idmnc_1": {
+        "maxval": "0.997",
+        "minval": "0.9569"
+    },
+    "phase_congruency_noise_thresh": {
+        "maxval": "0.1271",
+        "minval": "0"
+    },
+    "obj_EquivDiameter_median": {
+        "maxval": "22.0828",
+        "minval": "7.653"
+    },
+    "obj_EulerNumber_std": {
+        "maxval": "1600.433",
+        "minval": "7.998"
+    },
+    "obj_phase_congruency_min_moment_quantile025": {
+        "maxval": "-0.0001",
+        "minval": "-0.0001"
+    },
+    "color_V_skewness": {
+        "maxval": "4.0818",
+        "minval": "-1.4303"
+    },
+    "obj_Centroid_quantile975": {
+        "maxval": "999.0654",
+        "minval": "645.6746"
+    },
+    "obj_FilledArea_kurtosis": {
+        "maxval": "731.5928",
+        "minval": "2.3334"
+    },
+    "obj_Centroid_quantile750": {
+        "maxval": "978.6044",
+        "minval": "385.6667"
+    },
+    "obj_Extent_quantile025": {
+        "maxval": "0.3378",
+        "minval": "0.0475"
+    },
+    "obj_phase_congruency_ft_skewness": {
+        "maxval": "0.4024",
+        "minval": "-0.1495"
+    },
+    "obj_WeightedCentroid_median": {
+        "maxval": "832.5219",
+        "minval": "209.3939"
+    },
+    "color_B_std": {
+        "maxval": "0.1968",
+        "minval": "0.0337"
+    },
+    "color_H_quantile025": {
+        "maxval": "0.5935",
+        "minval": "0.0045"
+    },
+    "obj_EulerNumber_kurtosis": {
+        "maxval": "725.0328",
+        "minval": "6.1428"
+    },
+    "obj_Orientation_skewness": {
+        "maxval": "1.872",
+        "minval": "-2.4955"
+    },
+    "obj_Perimeter_std": {
+        "maxval": "3495.26",
+        "minval": "356.8423"
+    },
+    "texture_savgh_2": {
+        "maxval": "11.5055",
+        "minval": "3.7888"
+    },
+    "obj_Eccentricity_kurtosis": {
+        "maxval": "15.8281",
+        "minval": "1.813"
+    },
+    "texture_corrp_1": {
+        "maxval": "0.9654",
+        "minval": "0.3995"
+    },
+    "texture_corrp_2": {
+        "maxval": "0.971",
+        "minval": "0.321"
+    },
+    "obj_WeightedCentroid_quantile975": {
+        "maxval": "999.0654",
+        "minval": "645.6746"
+    },
+    "color_R_kurtosis": {
+        "maxval": "17.4099",
+        "minval": "1.8131"
+    },
+    "obj_MajorAxisLength_mean": {
+        "maxval": "307.4295",
+        "minval": "22.5609"
+    },
+    "obj_ConvexArea_skewness": {
+        "maxval": "26.8174",
+        "minval": "1.1605"
+    },
+    "obj_phase_congruency_orientation_std": {
+        "maxval": "64.5182",
+        "minval": "39.2005"
+    },
+    "L1_250": {
+        "maxval": "0.5976591",
+        "minval": "0"
+    },
+    "obj_MajorAxisLength_std": {
+        "maxval": "525.0482",
+        "minval": "40.7113"
+    },
+    "obj_Area_quantile250": {
+        "maxval": "119",
+        "minval": "35"
+    },
+    "obj_ConvexArea_quantile025": {
+        "maxval": "55",
+        "minval": "31.75"
+    },
+    "texture_cprom_2": {
+        "maxval": "834.5507",
+        "minval": "103.8"
+    },
+    "obj_phase_congruency_min_moment_quantile750": {
+        "maxval": "0.0116",
+        "minval": "0"
+    },
+    "color_B_skewness": {
+        "maxval": "3.9894",
+        "minval": "-1.1561"
+    },
+    "obj_Extent_quantile975": {
+        "maxval": "1",
+        "minval": "0.513"
+    },
+    "color_G_median": {
+        "maxval": "0.7515",
+        "minval": "0.1131"
+    },
+    "texture_homom_1": {
+        "maxval": "0.9337",
+        "minval": "0.5498"
+    },
+    "obj_Solidity_kurtosis": {
+        "maxval": "5.9239",
+        "minval": "1.6994"
+    },
+    "texture_homom_2": {
+        "maxval": "0.9373",
+        "minval": "0.5322"
+    },
+    "obj_WeightedCentroid_quantile750": {
+        "maxval": "978.6044",
+        "minval": "385.6667"
+    },
+    "obj_phase_congruency_ft_quantile975": {
+        "maxval": "1.4387",
+        "minval": "1.3203"
+    },
+    "texture_entro_1": {
+        "maxval": "3.6469",
+        "minval": "1.7"
+    },
+    "obj_phase_congruency_orientation_mean": {
+        "maxval": "101.5328",
+        "minval": "81.2104"
+    },
+    "obj_phase_congruency_ft_mean": {
+        "maxval": "0.1047",
+        "minval": "-0.2644"
+    },
+    "obj_phase_congruency_max_moment_median": {
+        "maxval": "0.0239",
+        "minval": "0.0001"
+    },
+    "color_R_mean": {
+        "maxval": "0.7071",
+        "minval": "0.1386"
+    },
+    "color_G_quantile025": {
+        "maxval": "0.5427",
+        "minval": "0.0349"
+    },
+    "obj_EulerNumber_quantile250": {
+        "maxval": "1",
+        "minval": "-9"
+    },
+    "obj_Perimeter_median": {
+        "maxval": "112.468",
+        "minval": "34.6777"
+    },
+    "obj_EquivDiameter_std": {
+        "maxval": "291.4448",
+        "minval": "19.4053"
+    },
+    "obj_Perimeter_skewness": {
+        "maxval": "26.5906",
+        "minval": "1.8246"
+    },
+    "obj_ConvexArea_kurtosis": {
+        "maxval": "725.8582",
+        "minval": "2.3558"
+    },
+    "color_R_quantile750": {
+        "maxval": "0.8063",
+        "minval": "0.1365"
+    },
+    "color_V_quantile025": {
+        "maxval": "0.5428",
+        "minval": "0.0615"
+    },
+    "obj_BoundingBox_quantile975": {
+        "maxval": "1001",
+        "minval": "705.5"
+    },
+    "color_S_quantile250": {
+        "maxval": "0.3096",
+        "minval": "0.0205"
+    },
+    "color_R_quantile025": {
+        "maxval": "0.5212",
+        "minval": "0.0389"
+    },
+    "obj_MinorAxisLength_kurtosis": {
+        "maxval": "586.2863",
+        "minval": "2.3241"
+    },
+    "obj_BoundingBox_std": {
+        "maxval": "424.8621",
+        "minval": "199.3419"
+    },
+    "obj_Area_mean": {
+        "maxval": "67909.71",
+        "minval": "471.6621"
+    },
+    "obj_phase_congruency_max_moment_quantile750": {
+        "maxval": "0.0648",
+        "minval": "0.0002"
+    },
+    "obj_Solidity_quantile975": {
+        "maxval": "1",
+        "minval": "0.7452"
+    },
+    "obj_Extent_quantile750": {
+        "maxval": "0.775",
+        "minval": "0.303"
+    },
+    "obj_phase_congruency_ft_quantile025": {
+        "maxval": "-1.3624",
+        "minval": "-1.4351"
+    },
+    "texture_sosvh_1": {
+        "maxval": "37.2825",
+        "minval": "5.0813"
+    },
+    "obj_phase_congruency_ft_kurtosis": {
+        "maxval": "2.1548",
+        "minval": "1.6706"
+    },
+    "obj_phase_congruency_min_moment_quantile975": {
+        "maxval": "0.1117",
+        "minval": "0.0037"
+    },
+    "obj_Solidity_std": {
+        "maxval": "0.1802",
+        "minval": "0.0927"
+    },
+    "obj_phase_congruency_orientation_quantile975": {
+        "maxval": "179",
+        "minval": "170"
+    },
+    "obj_Eccentricity_quantile025": {
+        "maxval": "0.7732",
+        "minval": "0.1969"
+    }
+}
