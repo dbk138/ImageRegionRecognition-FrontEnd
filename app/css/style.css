@@ -1,0 +1,49 @@
+
+.tableOptions table {
+    text-align: center;
+}
+
+
+.tableOptions td{
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+.tableOptions img{
+    margin-left: 15px;
+}
+
+
+
+.mainImages img{
+    width: 350px;
+    height: auto;
+}
+
+
+table.tableSection {
+    display: table;
+    width: 60%;
+}
+table.tableSection thead, table.tableSection tbody {
+    float: left;
+    width: 100%;
+}
+table.tableSection tbody {
+    overflow: auto;
+    height: 150px;
+}
+table.tableSection tr {
+    width: 100%;
+    display: table;
+    text-align: left;
+}
+table.tableSection th, table.tableSection td {
+    width: 33%;
+}
+
+
+.container-fluid h2 {
+    text-align: left;
+}

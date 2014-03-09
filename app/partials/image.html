@@ -1,16 +1,16 @@
 <div ng-controller="ImageCtrl2" >
 
+    <div class="mainImages">
+            <p> You Have Chosen:{{imageName.replace('_','/')}} </p>
 
-    <p> You Have Chosen:{{imageName.replace('_','/')}} </p>
+            <!--<p>F <{{ location.images }}></p>-->
 
-    <!--<p>F <{{ location.images }}></p>-->
-
-    <p><img ng-src="images/{{imageName.replace('_','/')}}" class="mainImage"> </p>
-    <p><img ng-src="images/{{imageName.replace('_','/').replace('.jpg','LC.jpg')}}" class="summaryImage"> </p>
+            <p><img ng-src="images/{{imageName.replace('_','/')}}" class="mainImage"> </p>
+            <p><img ng-src="images/{{imageName.replace('_','/').replace('.jpg','LC.jpg')}}" class="summaryImage"></p>
 
 
   <!-- <p> {{ imageName }}  {{ imageData}}</p>-->
-
+    </div>
     <div class="container-fluid">
 
         <table>
@@ -21,9 +21,18 @@
 
     <div class="container-fluid">
          <h2>Build the query using this set.</h2>
-    <table>
-        <tr><th>FeatureName</th><th>Feature Val.</th><th> Min Val. </th>  <th> Max Val.</th></tr>
-        <tr ng-repeat="(key,value) in queryBuilder"><td>{{key}}  </td> <td> {{ value['val'] }}</td> <td> {{ value['min'] }}</td><td> {{ value['max'] }}</td></tr>
+    <table class="tableSection">
+        <thead>
+            <tr>
+                <th>FeatureName</th>
+                <th>Feature Val.</th>
+                <th> Min Val. </th>
+                <th> Max Val.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="(key,value) in queryBuilder"><td>{{key}}  </td> <td> {{ value['val'] }}</td> <td> {{ value['min'] }}</td><td> {{ value['max'] }}</td></tr>
+        </tbody>
     </table>
     </div>
 </div>

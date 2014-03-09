@@ -13,9 +13,18 @@
   <!--  <p ng-repeat="images in location.images"><a href="#/image/{{images.name.replace('/','_')}}">
          <img ng-src="images/{{images.name}}" class="thumb"></a></p>-->
 
-    <table class="">
-            <tr ng-repeat="images in location.images"><td><a href="#/image/{{images.name.replace('/','_')}}">
-                   <img  alt=""  ng-src="images/{{images.name}}" class="thumb"> </a> </td> <td>{{images.name}}</td></tr>
+    <table class="tableOptions">
+            <tr>
+                <td ng-repeat="images in location.images">
+                    {{images.name}}
+                    <br />
+                    <a href="#/image/{{images.name.replace('/','_')}}">
+                        <img  alt=""  ng-src="images/{{images.name}}" class="thumb">
+                    </a>
+                    <br />
+
+                </td>
+            </tr>
     </table>
 
 
