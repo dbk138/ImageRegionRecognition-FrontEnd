@@ -4,7 +4,7 @@
 
 var featureQueryApp = angular.module('featureQueryApp', [
     'ngRoute',
-   'featureQueryControllers', 'fqServices'
+   'featureQueryControllers', 'fqServices','featureQueryDirectives'
 
 
 ]);
@@ -17,9 +17,10 @@ featureQueryApp.config(['$routeProvider',
             }).
             when('/image/:imageName', {
                 templateUrl: 'partials/image.html'
-
             }).
             otherwise({
                 redirectTo: '/locations'
             });
     }]);
+
+

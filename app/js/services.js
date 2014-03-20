@@ -19,4 +19,10 @@ fqServices.factory('FeatureLookupService', ['$resource',
         });
     }]);
 
+fqServices.factory('FeatureQueryService', ['$resource', '$http',
+    function( $resource){
+        return $resource('http://localhost\\:8080/login',null , {
+            'update': { method:'POST', data : {} }
+        });
+    }]);
 

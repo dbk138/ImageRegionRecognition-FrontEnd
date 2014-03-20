@@ -5,3 +5,27 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.add-buttons button {
+    margin: 5px;
+    display: table;
+    float:left;
+}
+
+#feat-slider-range{
+    width: 100px;
+    display: inline-block;
+}
+
+#feat-amount{
+    width: 100px;
+}
+
+#cat-slider-range{
+    width: 100px;
+    display: inline-block;
+}
+
+#cat-amount{
+    width: 100px;
+}
