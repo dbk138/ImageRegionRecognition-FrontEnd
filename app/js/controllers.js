@@ -3,11 +3,8 @@
 
 var featureQueryControllers = angular.module('featureQueryControllers', []);
 
-featureQueryControllers.controller('LocationListCtrl', function($scope, $http) {
-    $http.get('data/locationLookup.json').success(function(data) {
-        $scope.locations = data;
-    });
-
+featureQueryControllers.controller('LocationListCtrl', function($scope, LocationLookupService) {
+   $scope.locations = LocationLookupService.query();
 });
 
 featureQueryControllers.controller('FeatureListCtrl', function($scope, $http) {
@@ -51,10 +48,13 @@ featureQueryControllers.controller('SubmitQuery', ['$scope','FeatureQueryService
 }]);
 
 
-featureQueryControllers.controller('ImageCtrl2', ['$scope','$routeParams','ImageService','FeatureLookupService',
-    function($scope,$routeParams, ImageService,FeatureLookupService) {
+featureQueryControllers.controller('ImageCtrl2', ['$scope','$http','$routeParams','ImageService','FeatureLookupService', 'LocationLookupService',
+    function($scope, $http, $routeParams, ImageService,FeatureLookupService, LocationLookupService) {
 
         $scope.imageName = $routeParams.imageName;
+
+        $scope.locations = LocationLookupService.query();
+        
 
          ImageService.get({imageName:$scope.imageName.replace('/','_').concat('.json')}
             ,  //success function

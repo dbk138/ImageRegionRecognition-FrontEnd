@@ -27,16 +27,15 @@ fqServices.factory('FeatureQueryService', ['$resource', '$http',
     }]);
 
 fqServices.service('LocationService', function() {
-    var location = {};
-
-    return {
-        getLocation: function () {
-            return location;
-        },
-        setLocation: function(value) {
-            location = value;
-        }
-    };
+    return {message: "I'm data from a service."}
 });
+
+
+fqServices.factory('LocationLookupService', ['$resource',
+    function($resource){
+        return $resource('data/locationLookup.json', {}, {
+            query: {method:'GET', params:{}, isArray:true}
+        });
+}]);
 
 

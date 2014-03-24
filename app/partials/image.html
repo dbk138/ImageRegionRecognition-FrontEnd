@@ -17,14 +17,13 @@
         </div>
         <div class="row" ng-controller="testCtrl">
             <div id="query">
-            {{query}}
+                {{query}}
             </div>
             <p>Start typing your query... e.g: ( color_b_kurtosis > 30 and area_median < 40 ) or ( area_quantile250 > 34 and orientation_kurtosis < 5 )</p>
             <textarea rows="5"  cols="50" id='tags' autocomplete="autocomplete" ng-model="query"/>
         </div>
 
-    </div>
-    <div class="row selectLocation" ng-controller="LocationListCtrl">
+    <div class="row selectLocation">
         <div>
             Location:<select  ng-model="location" ng-options="location.name for location in locations"></select>
         </div>
