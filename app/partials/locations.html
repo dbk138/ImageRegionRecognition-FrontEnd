@@ -3,9 +3,15 @@
     <h2>Select Image</h2>
     <select  ng-model="location" ng-options="location.name for location in locations"></select>
     <div class="container-fluid">
-        <table class="">
-            <tr ng-repeat="images in location.images"><td><a href="#/image/{{images.name.replace('/','_')}}">
-                <img  alt=""  ng-src="images/{{images.name}}" class="thumb"> </a> </td> <td>{{images.name}}</td></tr>
+        <table class="imageTable">
+            <tr>
+                <td ng-repeat="images in location.images">
+                    {{images.name}}
+                    <a href="#/image/{{images.name.replace('/','_')}}">
+                        <img  alt=""  ng-src="images/{{images.name}}" class="thumb">
+                    </a>
+                </td>
+            </tr>
         </table>
     </div>
 </div>

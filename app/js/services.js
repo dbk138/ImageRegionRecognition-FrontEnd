@@ -26,3 +26,17 @@ fqServices.factory('FeatureQueryService', ['$resource', '$http',
         });
     }]);
 
+fqServices.service('LocationService', function() {
+    var location = {};
+
+    return {
+        getLocation: function () {
+            return location;
+        },
+        setLocation: function(value) {
+            location = value;
+        }
+    };
+});
+
+

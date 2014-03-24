@@ -29,3 +29,41 @@ body {
 #cat-amount{
     width: 100px;
 }
+
+.row textarea {
+    width: 800px;
+}
+
+.mainImage {
+    width: 400px;
+    height: 400px;
+}
+
+.summaryImage {
+    width: 400px;
+    height: 400px;
+}
+
+.selectLocation {
+    text-align: left;
+}
+
+.imageTable {
+    margin-top: 25px;
+ }
+
+.imageTable td {
+    vertical-align: baseline;
+    text-align: center;
+    max-width: 300px;
+    border: 1px solid #000000;
+}
+.imageTable td img {
+    vertical-align: top;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+#query {
+    background: #dcdcdc;
+}

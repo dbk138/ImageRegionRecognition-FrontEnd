@@ -1,96 +1,48 @@
-<div ng-controller="ImageCtrl2" >
-
-
-    <p> You Have Chosen:{{imageName.replace('_','/')}} </p>
-
-
-    <div class="row">
-        <img ng-src="images/{{imageName.replace('_','/')}}" class="mainImage">
-        <img ng-src="images/{{imageName.replace('_','/').replace('.jpg','LC.jpg')}}" class="summaryImage">
-    </div>
-    <div class="row">
-        <table>
-            <tr><th>Semantic Element and Percentage</th></tr>
-            <!--<tr ng-repeat="(key,value) in summaryInfo"><td>{{key}} : {{ value }}</td></tr>-->
-            <tr><td>Classification: {{ classification }}</td></tr>
-        </table>
-    </div>
-    <div class="row" ng-controller="testCtrl">
-        <p>Start typing your query... e.g: ( color_b_kurtosis > 30 and area_median < 40 ) or ( area_quantile250 > 34 and orientation_kurtosis < 5 )</p>
-        <textarea rows="5"  cols="50" id='tags' autocomplete="autocomplete" ng-model="tags"/>
-
-    </div>
-
-    <!-- <p> {{ imageName }}  {{ imageData}}</p>--><p>{{ category }} + {{ feature }}</p>
-    <div class="row" id="categoryBuilder" ng-controller="CategoryListCtrl">
-        <label>Select Category:</label><select  ng-model="category" ng-options="value.category for (key, value) in categories"></select>
-        <input type="text" id="cat-amount" style="border:0; color:#f6931f; font-weight:bold;"><div id="cat-slider-range"></div>
-    </div>
-
-    <div class="row" id="featureBuilder">
-        <label>Select Feature:</label><select  ng-model="feature" ng-options="key for (key, value) in queryBuilder"></select>
-        <input type="text" id="feat-amount" style="border:0; color:#f6931f; font-weight:bold;"><div id="feat-slider-range"></div>
-    </div>
-
-
-    <div class="add-buttons">
-        <button class="btn btn-primary" ng-click="addCategory()">Add Category</button>
-        <button class="btn btn-primary" ng-click="addFeature()">Add Feature</button>
-    </div>
-
-    <!--<div class="container-fluid">-->
-        <!--<h2>Build the query using this set.</h2>-->
-        <!--<form ng-submit="submit()" ng-controller="SubmitQuery">-->
-            <!--<pre>{{queryFeatureValue|json}}</pre>-->
-            <!--<input type="submit" id="submit" value="Submit Query">-->
-            <!--<table>-->
-                <!--<tr><th>FeatureName</th><th>Feature Val.</th><th> Min Val. </th>  <th> Max Val.</th></tr>-->
-                <!--<tr ng-repeat="(key,value) in queryBuilder"><td>{{key}}</td><td  ><input type="text"  class="input_number" ng-model="queryFeatureValue[key]"> </td><td>{{ value['val'] }}</td>  <td> {{ value['min'] }}</td><td> {{ value['max'] }}</td></tr>-->
-            <!--</table>-->
-
-        <!--</form>-->
-    <!--</div>-->
-</div>
-<div ng-controller="LocationListCtrl">
+<div>
     <!--Body content-->
-    <h2>Select Location</h2>
-    <select  ng-model="location" ng-options="location.name for location in locations"></select>
-    <div class="container-fluid">
-        <table class="">
-            <tr ng-repeat="images in location.images"><td><a href="#/image/{{images.name.replace('/','_')}}">
-                <img  alt=""  ng-src="images/{{images.name}}" class="thumb"> </a> </td> <td>{{images.name}}</td></tr>
+    <div ng-controller="ImageCtrl2">
+
+        <p> You Have Chosen:{{imageName.replace('_','/')}} </p>
+
+        <div class="row">
+            <img ng-src="images/{{imageName.replace('_','/')}}" class="mainImage">
+            <img ng-src="images/{{imageName.replace('_','/').replace('.jpg','LC.jpg')}}" class="summaryImage">
+            <table>
+                <tr><th>Semantic classification and percentage</th></tr>
+                <tr><td>{{ classification }}: {{ elementValue }}%</td></tr>
+            </table>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row" ng-controller="testCtrl">
+            <div id="query">
+            {{query}}
+            </div>
+            <p>Start typing your query... e.g: ( color_b_kurtosis > 30 and area_median < 40 ) or ( area_quantile250 > 34 and orientation_kurtosis < 5 )</p>
+            <textarea rows="5"  cols="50" id='tags' autocomplete="autocomplete" ng-model="query"/>
+        </div>
+
+    </div>
+    <div class="row selectLocation" ng-controller="LocationListCtrl">
+        <div>
+            Location:<select  ng-model="location" ng-options="location.name for location in locations"></select>
+        </div>
+        <table class="imageTable">
+            <tr>
+                <td ng-repeat="images in location.images">
+                    {{images.name}}
+                    <a href="#/image/{{images.name.replace('/','_')}}">
+                        <img alt="" ng-src="images/{{images.name}}" class="thumb">
+                    </a>
+                </td>
+                <td>
+
+                </td>
+            </tr>
         </table>
     </div>
 </div>
-<script>
-    $(function() {
-        $( "#feat-slider-range" ).slider({
-            range: true,
-            min: 0,
-            max: 500,
-            values: [ 75, 300 ],
-            slide: function( event, ui ) {
-                $( "#feat-amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] );
-            }
-        });
-        $( "#feat-amount" ).val($( "#feat-slider-range" ).slider( "values", 0 ) +
-                " - " + $( "#feat-slider-range" ).slider( "values", 1 ) );
-
-
-
-        $( "#cat-slider-range" ).slider({
-            range: true,
-            min: 0,
-            max: 500,
-            values: [ 75, 300 ],
-            slide: function( event, ui ) {
-                $( "#cat-amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] );
-            }
-        });
-        $( "#cat-amount" ).val($( "#cat-slider-range" ).slider( "values", 0 ) +
-                " - " + $( "#cat-slider-range" ).slider( "values", 1 ) );
-    });
-</script>
 
 
 
