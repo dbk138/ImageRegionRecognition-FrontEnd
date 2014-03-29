@@ -1,0 +1,7 @@
+{
+  "imageLocation" : "C:\\Users\\geoimages\\angular-seed\\app\\images"
+, "imageData" : "C:\\Users\\geoimages\\angular-seed\\app\\data\\images"
+, "matlabFeatureExtractScript" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\matlab500.bat"
+, "matlabFeatureOutputFile" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\featuresForImage.out.txt"
+, "testImage" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\test.jpg"
+}

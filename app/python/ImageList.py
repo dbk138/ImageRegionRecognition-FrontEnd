@@ -10,7 +10,7 @@ def getImageList():
     thisImage={}
     #thisImageList=[]
     cnt=0
-    for root, dirs, files in os.walk(r'C:\Users\jhala\angular-seed\app\images'):
+    for root, dirs, files in os.walk(r'C:\Users\geoimages\angular-seed\app\images'):
 
         cnt+=1
         if cnt==1:

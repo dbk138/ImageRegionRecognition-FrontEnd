@@ -1,0 +1,67 @@
+2014-03-29 16:08:23,338 - BatchFeatureExtract - INFO - Run Start:03-29-2014 16:08:23
+2014-03-29 16:08:23,947 - BatchFeatureExtract - INFO - Image:C:\Users\geoimages\angular-seed\app\images\Albertville NW\Albertville NW_w011_h012.jpg modified Wed Mar 26 00:43:59 2014 
+2014-03-29 16:08:23,947 - BatchFeatureExtract - INFO - Image:C:\Users\geoimages\angular-seed\app\data\images\Albertville NW_Albertville NW_w011_h012.jpg.json Exists: False Modified Thu Jan 01 00:00:00 1970 
+2014-03-29 16:08:23,948 - BatchFeatureExtract - INFO - Requires Update: True
+2014-03-29 16:08:23,950 - BatchFeatureExtract - INFO - Needs Update: C:\Users\geoimages\angular-seed\app\images\Albertville NW\Albertville NW_w011_h012.jpg
+2014-03-29 16:08:23,950 - BatchFeatureExtract - INFO - Running D:\SWENG_500_GRP_1\SWENG_500\_Matlab\matlab500.bat
+2014-03-29 16:09:00,471 - BatchFeatureExtract - INFO - ret code:0
+2014-03-29 16:09:00,473 - BatchFeatureExtract - INFO - Script returned: 
+C:\Users\geoimages\angular-seed\app\python>set SCRIPT_HOME=D:\SWENG_500_GRP_1\SWENG_500\_Matlab 
+
+C:\Users\geoimages\angular-seed\app\python>set PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Java\jre7\bin;C:\Program Files\Java\jre7\bin\server;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\IIS Express\;C:\Python27;C:\Python27\Scripts;D:\SWENG_500_GRP_1\SWENG_500\_Matlab 
+
+C:\Users\geoimages\angular-seed\app\python>echo Your image "C:\Users\geoimages\angular-seed\app\images\Albertville NW\Albertville NW_w011_h012.jpg" 
+Your image "C:\Users\geoimages\angular-seed\app\images\Albertville NW\Albertville NW_w011_h012.jpg"
+
+C:\Users\geoimages\angular-seed\app\python>d:
+
+D:\>cd D:\SWENG_500_GRP_1\SWENG_500\_Matlab 
+
+D:\SWENG_500_GRP_1\SWENG_500\_Matlab>REM matlab -wait -nodesktop -nosplash /r FeaturesForImage('"C:\Users\geoimages\angular-seed\app\images\Albertville NW\Albertville NW_w011_h012.jpg"','FALSE') 
+
+D:\SWENG_500_GRP_1\SWENG_500\_Matlab>matlab -wait -nodesktop -nosplash -r "try,diary('featuresForImage.out.txt'); FeaturesForImage(\"'"C:\Users\geoimages\angular-seed\app\images\Albertville NW\Albertville NW_w011_h012.jpg"'\",'FALSE'); diary off; end, quit" 
+
+2014-03-29 16:09:00,515 - BatchFeatureExtract - INFO - Writing data to C:\Users\geoimages\angular-seed\app\data\images\Albertville NW_Albertville NW_w011_h012.jpg.json
+2014-03-29 16:09:00,525 - BatchFeatureExtract - INFO - Feature Update Ran # of images: 1
+2014-03-29 16:09:00,525 - BatchFeatureExtract - INFO - Run End:03-29-2014 16:09:00
+2014-03-29 16:20:51,394 - BatchFeatureExtract - INFO - Run Start:03-29-2014 16:20:51
+2014-03-29 16:20:51,756 - BatchFeatureExtract - INFO - Image:C:\Users\geoimages\angular-seed\app\images\Alderwood Lake SE\Alderwood Lake SE_w004_h012.jpg modified Wed Mar 26 00:43:59 2014 
+2014-03-29 16:20:51,756 - BatchFeatureExtract - INFO - Image:C:\Users\geoimages\angular-seed\app\data\images\Alderwood Lake SE_Alderwood Lake SE_w004_h012.jpg.json Exists: False Modified Thu Jan 01 00:00:00 1970 
+2014-03-29 16:20:51,849 - BatchFeatureExtract - INFO - Requires Update: True
+2014-03-29 16:20:51,851 - BatchFeatureExtract - INFO - Needs Update: C:\Users\geoimages\angular-seed\app\images\Alderwood Lake SE\Alderwood Lake SE_w004_h012.jpg
+2014-03-29 16:20:51,851 - BatchFeatureExtract - INFO - Running D:\SWENG_500_GRP_1\SWENG_500\_Matlab\matlab500.bat
+2014-03-29 16:21:24,020 - BatchFeatureExtract - INFO - ret code:0
+2014-03-29 16:21:24,020 - BatchFeatureExtract - INFO - Script returned: 
+C:\Users\geoimages\angular-seed\app\python>set SCRIPT_HOME=D:\SWENG_500_GRP_1\SWENG_500\_Matlab 
+
+C:\Users\geoimages\angular-seed\app\python>set PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Java\jre7\bin;C:\Program Files\Java\jre7\bin\server;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\IIS Express\;C:\Python27;C:\Python27\Scripts;D:\SWENG_500_GRP_1\SWENG_500\_Matlab 
+
+C:\Users\geoimages\angular-seed\app\python>echo Your image "C:\Users\geoimages\angular-seed\app\images\Alderwood Lake SE\Alderwood Lake SE_w004_h012.jpg" 
+Your image "C:\Users\geoimages\angular-seed\app\images\Alderwood Lake SE\Alderwood Lake SE_w004_h012.jpg"
+
+C:\Users\geoimages\angular-seed\app\python>d:
+
+D:\>cd D:\SWENG_500_GRP_1\SWENG_500\_Matlab 
+
+D:\SWENG_500_GRP_1\SWENG_500\_Matlab>REM matlab -wait -nodesktop -nosplash /r FeaturesForImage('"C:\Users\geoimages\angular-seed\app\images\Alderwood Lake SE\Alderwood Lake SE_w004_h012.jpg"','FALSE') 
+
+D:\SWENG_500_GRP_1\SWENG_500\_Matlab>matlab -wait -nodesktop -nosplash -r "try,diary('featuresForImage.out.txt'); FeaturesForImage(\"'"C:\Users\geoimages\angular-seed\app\images\Alderwood Lake SE\Alderwood Lake SE_w004_h012.jpg"'\",'FALSE'); diary off; end, quit" 
+
+2014-03-29 16:21:24,032 - BatchFeatureExtract - INFO - Writing data to C:\Users\geoimages\angular-seed\app\data\images\Alderwood Lake SE_Alderwood Lake SE_w004_h012.jpg.json
+2014-03-29 16:21:24,038 - BatchFeatureExtract - INFO - Feature Update Ran # of images: 1
+2014-03-29 16:21:24,039 - BatchFeatureExtract - INFO - Run End:03-29-2014 16:21:24
+2014-03-29 16:21:51,165 - BatchFeatureExtract - INFO - Run Start:03-29-2014 16:21:51
+2014-03-29 16:21:51,369 - BatchFeatureExtract - INFO - Feature Update Ran # of images: 0
+2014-03-29 16:21:51,371 - BatchFeatureExtract - INFO - Run End:03-29-2014 16:21:51
+2014-03-29 16:22:51,252 - BatchFeatureExtract - INFO - Run Start:03-29-2014 16:22:51
+2014-03-29 16:22:51,611 - BatchFeatureExtract - INFO - Feature Update Ran # of images: 0
+2014-03-29 16:22:51,611 - BatchFeatureExtract - INFO - Run End:03-29-2014 16:22:51
+2014-03-29 16:23:51,240 - BatchFeatureExtract - INFO - Run Start:03-29-2014 16:23:51
+2014-03-29 16:23:51,589 - BatchFeatureExtract - INFO - Feature Update Ran # of images: 0
+2014-03-29 16:23:51,591 - BatchFeatureExtract - INFO - Run End:03-29-2014 16:23:51
+2014-03-29 16:24:51,266 - BatchFeatureExtract - INFO - Run Start:03-29-2014 16:24:51
+2014-03-29 16:24:51,621 - BatchFeatureExtract - INFO - Feature Update Ran # of images: 0
+2014-03-29 16:24:51,621 - BatchFeatureExtract - INFO - Run End:03-29-2014 16:24:51
+2014-03-29 16:25:51,142 - BatchFeatureExtract - INFO - Run Start:03-29-2014 16:25:51
+2014-03-29 16:25:51,302 - BatchFeatureExtract - INFO - Feature Update Ran # of images: 0
+2014-03-29 16:25:51,302 - BatchFeatureExtract - INFO - Run End:03-29-2014 16:25:51
