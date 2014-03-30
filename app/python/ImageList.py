@@ -6,9 +6,6 @@ import json
 
 def getImageList():
     imgList=[]
-    #thisImageInfo={}
-    thisImage={}
-    #thisImageList=[]
     cnt=0
     for root, dirs, files in os.walk(r'C:\Users\geoimages\angular-seed\app\images'):
 
@@ -21,6 +18,7 @@ def getImageList():
         locName=os.path.basename(root)
         #print locName
         thisImageInfo={}
+        thisImage={}
         thisImageList=[]
         thisImageInfo['name']= locName
 
@@ -29,13 +27,12 @@ def getImageList():
             if re.search('.jpg$',imgName, flags=re.IGNORECASE) and not re.search('LC.jpg$',imgName, flags=re.IGNORECASE):
                 thisImage['name'] = locName + '/' + os.path.basename(imgName)
                 thisImageList.append(thisImage)
-
+                print thisImage
         thisImageInfo['images'] = thisImageList
         imgList.append(thisImageInfo)
 
 
     return json.dumps(imgList)
-
 
     #print imgList
     #print thisImage

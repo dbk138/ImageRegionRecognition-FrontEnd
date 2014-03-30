@@ -49,7 +49,7 @@ featureQueryControllers.controller('SubmitQuery', ['$scope','FeatureQueryService
 
 
 featureQueryControllers.controller('ImageCtrl2', ['$scope','$http','$routeParams','ImageService','FeatureLookupService', 'LocationLookupService',
-    function($scope, $http, $routeParams, ImageService,FeatureLookupService, LocationLookupService) {
+    function($scope, $http, $routeParams, ImageService, FeatureLookupService, LocationLookupService) {
 
         $scope.imageName = $routeParams.imageName;
 

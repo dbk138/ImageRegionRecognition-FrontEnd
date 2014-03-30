@@ -26,14 +26,9 @@ fqServices.factory('FeatureQueryService', ['$resource', '$http',
         });
     }]);
 
-fqServices.service('LocationService', function() {
-    return {message: "I'm data from a service."}
-});
-
-
 fqServices.factory('LocationLookupService', ['$resource',
     function($resource){
-        return $resource('data/locationLookup.json', {}, {
+        return $resource('/services/getlocations', {}, {
             query: {method:'GET', params:{}, isArray:true}
         });
 }]);
