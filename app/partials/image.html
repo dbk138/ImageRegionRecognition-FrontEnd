@@ -15,16 +15,22 @@
         <div class="row">
 
         </div>
-        <div class="row" ng-controller="testCtrl">
+        <div class="row" ng-controller="autocompleteCtrl">
             <div id="query">
                 {{query}}
             </div>
             <p>Start typing your query... e.g: ( color_b_kurtosis > 30 and area_median < 40 ) or ( area_quantile250 > 34 and orientation_kurtosis < 5 )</p>
             <textarea rows="5"  cols="50" id='tags' autocomplete="autocomplete" ng-model="query"/>
+			<br />
+			<div style="width: 970px;">
+				<button class="btn btn-primary" style="float:right;" ng-click="submitQuery()">Submit</button>
+			</div>
         </div>
 
     <div class="row selectLocation">
         <div>
+
+			<br />
             Location:<select  ng-model="location" ng-options="location.name for location in locations"></select>
         </div>
         <table class="imageTable">

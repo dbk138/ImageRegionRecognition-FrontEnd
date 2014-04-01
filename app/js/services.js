@@ -33,4 +33,24 @@ fqServices.factory('LocationLookupService', ['$resource',
         });
 }]);
 
+/*
+fqServices.factory('Locale',['$resource' function($q, $timeout, $resource) {
+	var locations = function() {
+		var deferred = $q.defer();
+		
+		$timeout(function($resource) {
+			deferred.resolve(
+				$resource('/services/getlocations', {}, {
+				query: {method:'GET', params:{}, isArray:true}
+        }))
+		}, 2000);
+		
+		return deferred.promise;
+	};
+	
+	return {
+		getLocations: getLocations
+	};
 
+}]);
+*/
