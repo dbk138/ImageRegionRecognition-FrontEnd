@@ -18,6 +18,9 @@ featureQueryApp.config(['$routeProvider',
             when('/image/:imageName', {
                 templateUrl: 'partials/image.html'
             }).
+			when('/logs', {
+                templateUrl: 'partials/logs.html'
+            }).
             otherwise({
                 redirectTo: '/locations'
             });

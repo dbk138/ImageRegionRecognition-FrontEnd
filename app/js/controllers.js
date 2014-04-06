@@ -7,6 +7,12 @@ featureQueryControllers.controller('LocationListCtrl', function($scope, Location
    $scope.locations = LocationLookupService.query();
 });
 
+featureQueryControllers.controller('sysLogCtrl', function($scope, $http) {
+	$http.get('/services/syslog').success(function(data) {
+		$scope.logs = data;
+	});
+});
+
 featureQueryControllers.controller('FeatureListCtrl', function($scope, $http) {
     $http.get('data/featureLookup.json').success(function(data) {
         $scope.features = data;

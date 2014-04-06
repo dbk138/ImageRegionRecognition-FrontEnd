@@ -9,7 +9,7 @@ logging.config.fileConfig('logging.conf')
 logger = logging.getLogger(__name__)
 
 
-def Get(matlabFeatureOutputFile):
+def ToDict(matlabFeatureOutputFile):
     isData=False
     imgDict = {}
     featureName=''
@@ -45,7 +45,7 @@ def Get(matlabFeatureOutputFile):
                     imgDict['data'] = {}
 
 
-                imgDict['data'][featureName] = float(stat)
+                imgDict['data'][featureName] = str(float(stat))
 
                 1 #imgDict["data"][featureName] = float(stat)
 
@@ -55,6 +55,6 @@ def Get(matlabFeatureOutputFile):
     #l='4.840458391220713e-01'
     #print float(l)
 
-    return json.dumps(imgDict)
+    return imgDict
 
 
