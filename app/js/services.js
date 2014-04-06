@@ -26,16 +26,31 @@ fqServices.factory('FeatureQueryService', ['$resource', '$http',
         });
     }]);
 
-fqServices.service('LocationService', function() {
-    return {message: "I'm data from a service."}
-});
-
-
 fqServices.factory('LocationLookupService', ['$resource',
     function($resource){
-        return $resource('data/locationLookup.json', {}, {
+        return $resource('/services/getlocations', {}, {
             query: {method:'GET', params:{}, isArray:true}
         });
 }]);
 
+/*
+fqServices.factory('Locale',['$resource' function($q, $timeout, $resource) {
+	var locations = function() {
+		var deferred = $q.defer();
+		
+		$timeout(function($resource) {
+			deferred.resolve(
+				$resource('/services/getlocations', {}, {
+				query: {method:'GET', params:{}, isArray:true}
+        }))
+		}, 2000);
+		
+		return deferred.promise;
+	};
+	
+	return {
+		getLocations: getLocations
+	};
 
+}]);
+*/

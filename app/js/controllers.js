@@ -13,13 +13,13 @@ featureQueryControllers.controller('FeatureListCtrl', function($scope, $http) {
     });
 });
 
-featureQueryControllers.controller('CategoryListCtrl', function($scope, $http) {
-    $http.get('data/featureLookup.json').success(function(data) {
-        $scope.categories = data;
-    });
+featureQueryControllers.controller('LocaleCtrl', function($scope, Locale) {
+		Locale.getLocations().then(function(locations) {
+			$scope.loc = locations;
+		});
 });
 
-featureQueryControllers.controller( 'testCtrl' , function ($scope, $http) {
+featureQueryControllers.controller( 'autocompleteCtrl' , function ($scope, $http) {
     var words = [];
     $http.get('data/featureLookup.json').success(function(data) {
         for(var key in data) {
@@ -48,15 +48,37 @@ featureQueryControllers.controller('SubmitQuery', ['$scope','FeatureQueryService
 }]);
 
 
-featureQueryControllers.controller('ImageCtrl2', ['$scope','$http','$routeParams','ImageService','FeatureLookupService', 'LocationLookupService',
-    function($scope, $http, $routeParams, ImageService,FeatureLookupService, LocationLookupService) {
+featureQueryControllers.controller('ImageCtrl2', ['$scope', '$http', '$routeParams','ImageService','FeatureLookupService', 'LocationLookupService',
+    function($scope, $http, $routeParams, ImageService, FeatureLookupService, LocationLookupService) {
 
         $scope.imageName = $routeParams.imageName;
-
-        $scope.locations = LocationLookupService.query();
+		
+		var nameString = $scope.imageName;
+		
+		var name = nameString.substring(0, nameString.indexOf("_"));
+		
+		$scope.locations = LocationLookupService.query();
+		
+		LocationLookupService.query(function(locations) {
+			for(var i = 0; i<locations.length; i++) {
+				if(locations[i].name == name) {
+					$scope.location = locations[i];
+				}
+			}
+		});
+		
+        /*$http.get('/services/getlocations').then(function(location) {
+			for(var i = 0; i<location.length; i++) {
+				if($scope.imageName = location['name']) {
+					$scope.location = location['name'];
+				}
+			}
+		});
+		*/
+		//$scope.location = {"images":[{"name":"Alderwood Lake SE/Alderwood Lake SE_w004_h012.jpg"}],"name":"Alderwood Lake SE"}; 
         
 
-         ImageService.get({imageName:$scope.imageName.replace('/','_').concat('.json')}
+         ImageService.get({imageName:$scope.imageName.concat('.json')}
             ,  //success function
             function (imgData) {
 
