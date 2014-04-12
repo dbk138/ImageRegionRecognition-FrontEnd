@@ -6,7 +6,7 @@ import logging
 import logging.config
 #import sys
 #logging.config.fileConfig('logging.conf')
-logger = logging.getLogger('__Helpers__')
+logger = logging.getLogger('Helpers.py')
 import re
 
 appInfo='appinfo.json'
@@ -68,6 +68,19 @@ def getImageLocation():
     loc=json.load(f)
     return loc['imageLocation']
 
+def getFeatureLookupFileName():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['FeatureLookupDataFile']
+
+def isBatchSystemEnabled():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    tf=str(loc['BatchSystemEnabledFile'])
+    if tf.lower() == 'true':
+        return True
+    else:
+        return False
 
 def getR_MinMaxScript():
     f=open(appInfo,'r')
@@ -79,14 +92,38 @@ def getAllImagesDataDumpFile():
     loc=json.load(f)
     return loc['AllImagesDataDumpFile']
 
-def removeAllImagesDataDumpFile():
+def getAllImagesMinDataDumpFile():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['AllImagesMinDataDumpFile']
+
+def getAllImagesMaxDataDumpFile():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['AllImagesMaxDataDumpFile']
+
+def removeAllImagesDataDumpFiles():
+    logger.info('Removing all files involved in calculating min/max values across dataset.')
     fileName=getAllImagesDataDumpFile()
+    minFileName=getAllImagesMinDataDumpFile()
+    maxFileName=getAllImagesMaxDataDumpFile()
     if os.path.exists(fileName) and os.path.isfile(fileName):
         try:
             os.remove(fileName)
         except:
             logger.exception('Could Not Delete File' + fileName)
 
+    if os.path.exists(minFileName) and os.path.isfile(minFileName):
+        try:
+            os.remove(minFileName)
+        except:
+            logger.exception('Could Not Delete File' + fileName)
+
+    if os.path.exists(maxFileName) and os.path.isfile(maxFileName):
+        try:
+            os.remove(maxFileName)
+        except:
+            logger.exception('Could Not Delete File' + fileName)
 
 
 def getImageDataLocation():

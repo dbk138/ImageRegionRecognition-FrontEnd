@@ -8,4 +8,8 @@
 , "matlabSemanticElementsScript" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\matlab500.bat"
 , "R_min_max_script" : "C:\\Users\\jhala\\angular-seed\\app\\python\\MinMax.R"
 , "AllImagesDataDumpFile" : "C:\\Users\\jhala\\angular-seed\\app\\python\\allImagesDataDump.txt"
+, "AllImagesMinDataDumpFile" : "C:\\Users\\jhala\\angular-seed\\app\\python\\allImagesMinDataDump.txt"
+, "AllImagesMaxDataDumpFile" : "C:\\Users\\jhala\\angular-seed\\app\\python\\allImagesMaxDataDump.txt"
+, "FeatureLookupDataFile" : "C:\\Users\\jhala\\angular-seed\\app\\data\\featureLookup.json"
+, "BatchSystemEnabledFile" : "C:\\Users\\jhala\\angular-seed\\app\\python\\BatchSystemEnabled.json"
 }
