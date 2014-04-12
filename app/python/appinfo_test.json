@@ -1,0 +1,11 @@
+{
+  "imageLocation" : "C:\\Users\\jhala\\angular-seed\\app\\images"
+, "imageData" : "C:\\Users\\jhala\\angular-seed\\app\\data\\images"
+, "matlabFeatureExtractScript" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\matlab500.bat"
+, "matlabFeatureOutputFile" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\featuresForImage.out.txt"
+, "testImage" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\test.jpg"
+, "matlabSemanticElementsOutputFile" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\semElements.out.txt"
+, "matlabSemanticElementsScript" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\matlab500.bat"
+, "R_min_max_script" : "C:\\Users\\jhala\\angular-seed\\app\\python\\MinMax.R"
+, "AllImagesDataDumpFile" : "C:\\Users\\jhala\\angular-seed\\app\\python\\allImagesDataDump.txt"
+}

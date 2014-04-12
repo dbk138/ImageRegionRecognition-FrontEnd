@@ -4,11 +4,16 @@ import os.path, time
 import json
 import logging
 import logging.config
-logging.config.fileConfig('logging.conf')
-logger = logging.getLogger(__name__)
+#import sys
+#logging.config.fileConfig('logging.conf')
+logger = logging.getLogger('__Helpers__')
 import re
 
 appInfo='appinfo.json'
+
+
+def logTest():
+    logger.info('T E S T')
 
 ''' Helper Functions '''
 
@@ -20,6 +25,29 @@ def fileInfo(fil):
 
     return fileArr
 
+def deleteDataFile(fileName):
+    # lets first check that the data file is actually where its supposed to be
+
+    if getImageDataLocation() in fileName and '.json' in fileName and os.path.isfile(fileName):
+        print logger.info('Removing obsolete datafile: '+ fileName)
+        try:
+            os.remove(fileName)
+        except:
+            logger.exception('Could not remove file:'+ fileName)
+    else:
+        logger.warn( "Are you crazy you want to delete a file that is not a data file: "+ fileName)
+
+''' returns the list of data files corresponding to images '''
+def getMainDataFileList():
+    dataFileList=[]
+    for i in getMainImageFileList():
+        dataFileList.append( i['dataFile'])
+    return dataFileList
+
+''' get all data files, regardless of whether image file exists '''
+def getAllDataFilesList():
+    import glob
+    return glob.glob(getImageDataLocation() + r'\*.json')
 
 ''' Return the header as an array '''
 def getHeader(fileArr):
@@ -40,10 +68,33 @@ def getImageLocation():
     loc=json.load(f)
     return loc['imageLocation']
 
+
+def getR_MinMaxScript():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['R_min_max_script']
+
+def getAllImagesDataDumpFile():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['AllImagesDataDumpFile']
+
+def removeAllImagesDataDumpFile():
+    fileName=getAllImagesDataDumpFile()
+    if os.path.exists(fileName) and os.path.isfile(fileName):
+        try:
+            os.remove(fileName)
+        except:
+            logger.exception('Could Not Delete File' + fileName)
+
+
+
 def getImageDataLocation():
     f=open(appInfo,'r')
     loc=json.load(f)
     return loc['imageData']
+
+
 
 def getMatLabFeatureExtractScript():
     f=open(appInfo,'r')
