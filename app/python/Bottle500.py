@@ -14,6 +14,6 @@ def new_item():
     response.content_type = 'application/json'
     for i in open('sys.log','r'):
         logList.append(i)
-
+    logList.reverse()
     return json.dumps(logList)
 

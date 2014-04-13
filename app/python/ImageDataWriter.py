@@ -3,30 +3,28 @@ __author__ = 'jhala'
 
 import logging
 import logging.config
+logging.config.fileConfig('logging.conf')
+logger = logging.getLogger('ImageDataWriter')
 import Helpers
 import SysCall
 import SerializeImageFeatures
 import time
 import SerializeSemanticElements
-logging.config.fileConfig('logging.conf')
-logger = logging.getLogger('ImageDataWriter')
 import json
 matLabFeatureScr=Helpers.getMatLabFeatureExtractScript()
 matLabSemanticElementsScr=Helpers.getMatLabSemanticElementsScript()
+import MinMaxCalculator
 
 def features(i):
 
-    logger.info('Image:' +i['imageFile'] + ' modified %s ' % time.ctime(i['imageLastTouched']))
-    logger.info('Image:' +i['dataFile'] + ' Exists: '+ str(i['dataFileExists']) + ' Modified %s ' % time.ctime(i['dataLastTouched']))
-    logger.info('Requires Update: '+str(i['dataFileRequiresUpdate']))
+    #logger.info('Image:' +i['imageFile'] + ' modified %s ' % time.ctime(i['imageLastTouched']))
+    #logger.info('Image:' +i['dataFile'] + ' Exists: '+ str(i['dataFileExists']) + ' Modified %s ' % time.ctime(i['dataLastTouched']))
+    #logger.info('Requires Update: '+str(i['dataFileRequiresUpdate']))
 
     try:
         Helpers.removeMatlabFeatureOutputFile()
-        logger.info('Running '+ matLabFeatureScr)
+        #logger.info('Running '+ matLabFeatureScr)
         out,err,retCd = SysCall.sh([matLabFeatureScr, '"'+i['imageFile']+'"', 'false'])
-        #out,err,retCd = SysCall.sh([matLabFeatureScr, Helpers.getTestImageName(), 'false'])
-        logger.info('ret code:' +str(retCd))
-        logger.info('Script returned: ' + str( out))
 
         if Helpers.checkFileNameExists(Helpers.getMatlabFeatureOutputFile()):
             return SerializeImageFeatures.ToDict(Helpers.getMatlabFeatureOutputFile())
@@ -42,11 +40,8 @@ def semanticElements(i):
 
     try:
         Helpers.removeMatlabSemanticElementsOutputFile()
-        logger.info('Running '+ matLabSemanticElementsScr)
+        #logger.info('Running '+ matLabSemanticElementsScr)
         out,err,retCd = SysCall.sh([matLabSemanticElementsScr, '"'+i['lcImageName']+'"'])
-        #out,err,retCd = SysCall.sh([matLabFeatureScr, Helpers.getTestImageName(), 'false'])
-        logger.info('ret code:' +str(retCd))
-        logger.info('Script returned: ' + str( out))
 
         if Helpers.checkFileNameExists(Helpers.getMatlabFeatureOutputFile()):
             return SerializeSemanticElements.ToDict(Helpers.getMatlabSemanticElementsOutputFile())
@@ -59,16 +54,10 @@ def semanticElements(i):
 
 if __name__ == '__main__':
     counter=0
-    logger.info('Run Start:' +time.strftime("%m-%d-%Y %H:%M:%S"))
-    print Helpers.getMainImageFileList()
+    logger.info('Run Start')
+    #print Helpers.getMainImageFileList()
     for i in Helpers.getMainImageFileList():
-        if counter > 0:
-            1
-            #break
 
-        counter +=1
-        print i['dataFileRequiresUpdate']
-        print i['imageFile']
         try:
             if i['dataFileRequiresUpdate']:
                 logger.info('Image Requires Update: '+i['imageFile'])
@@ -91,13 +80,21 @@ if __name__ == '__main__':
                         f.write(json.dumps(imgDict))
                         f.close()
 
+                        counter+=1
+                    else:
+                        logger.error('Something went terribly wrong while  getting data from matlab, Image Features or Semantic elements are null')
+
 
                 else:
                     logger.error('Nothing will be done because LC file is missing:' + i['lcImageName'])
         except:
             logger.exception('Exceptions getting info from image and lc files' + i['lcImageName'] + 'and ' + i['imageFile'])
 
-    logger.info('Run End:' +time.strftime("%m-%d-%Y %H:%M:%S"))
+    logger.info('Run End. Images Processed: '+str(counter))
+
+    if counter > 0:
+        MinMaxCalculator.Calculate()
+
 
 
 

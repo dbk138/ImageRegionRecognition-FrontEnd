@@ -3,8 +3,6 @@ import subprocess as sub
 import re
 import sys
 import logging
-import logging.config
-
 logger = logging.getLogger('SysCall.py')
 
 def sh(cmdArray):

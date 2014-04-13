@@ -1,9 +1,8 @@
 
 import logging
-import logging.config
 import sys
 import os
-logging.config.fileConfig('logging.conf')
+
 logger = logging.getLogger(os.path.basename(sys.argv[0]))
 import Helpers
 import json
@@ -41,46 +40,50 @@ def getAllDataPoints():
     df.close()
 
 
-if __name__ == '__main__':
+def Calculate():
     logger.info('Calculate the Min Max feature values across the entire data set.')
-    Helpers.removeAllImagesDataDumpFiles()
-    getAllDataPoints()
-    rMinMax()
+    try:
+        Helpers.removeAllImagesDataDumpFiles()
+        getAllDataPoints()
+        rMinMax()
 
-    minMaxDict={}
+        minMaxDict={}
 
-    logger.info('Building Dictionary..')
+        logger.info('Building Dictionary..')
 
-    for i in open(Helpers.getAllImagesMinDataDumpFile()):
-        minKeyVal=i.strip().replace('"','').split(",")
-        #print minKeyVal[0]
-        if minKeyVal[0] <> '':
-            key=minKeyVal[0]
-            val=minKeyVal[1]
+        for i in open(Helpers.getAllImagesMinDataDumpFile()):
+            minKeyVal=i.strip().replace('"','').split(",")
+            #print minKeyVal[0]
+            if minKeyVal[0] <> '':
+                key=minKeyVal[0]
+                val=minKeyVal[1]
 
-            thisDict={ "minval" : str(val) }
-            minMaxDict[key]=thisDict
-
-
-    for i in open(Helpers.getAllImagesMaxDataDumpFile()):
-        maxKeyVal=i.strip().replace('"','').split(",")
-        if maxKeyVal[0] <> '':
-            key=maxKeyVal[0]
-            val=maxKeyVal[1]
-            try:
-                valDict=minMaxDict[key]
-                valDict['maxval'] = val
-            except KeyError:
-                logger.exception('Major error while calculating min/max values across dataset, key:' + key + ' not found in min dataset but was found in max dataset')
-                raise
+                thisDict={ "minval" : str(val) }
+                minMaxDict[key]=thisDict
 
 
+        for i in open(Helpers.getAllImagesMaxDataDumpFile()):
+            maxKeyVal=i.strip().replace('"','').split(",")
+            if maxKeyVal[0] <> '':
+                key=maxKeyVal[0]
+                val=maxKeyVal[1]
+                try:
+                    valDict=minMaxDict[key]
+                    valDict['maxval'] = val
+                except KeyError:
+                    logger.exception('Major error while calculating min/max values across dataset, key:' + key + ' not found in min dataset but was found in max dataset')
+                    raise
 
-    fl=open(Helpers.getFeatureLookupFileName(),'w')
-    json.dump(minMaxDict,fl)
-    fl.close()
 
-    logger.info('Recreated file '+ Helpers.getFeatureLookupFileName())
+
+        fl=open(Helpers.getFeatureLookupFileName(),'w')
+        json.dump(minMaxDict,fl)
+        fl.close()
+
+        logger.info('Recreated file '+ Helpers.getFeatureLookupFileName())
+    except:
+        logger.exception('Could Not calculate min max values.')
+        raise
 
 
 
