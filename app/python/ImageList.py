@@ -3,6 +3,7 @@ __author__ = 'jhala'
 import os
 import json
 import Helpers
+
 def getImageList():
 
     # first lets create a simple dictionary of locations and images
@@ -40,5 +41,7 @@ def getImageList():
 
     #f=open('test.json','w')
     #json.dump(mainImageList,f)
-
+	
+	# sort image list by location name. commented out. this will be done in the front end.
+    #mainImageList.sort(key=operator.itemgetter('name'))
     return json.dumps(mainImageList)

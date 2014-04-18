@@ -23,19 +23,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BatchFeatureExtract.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.py">
+      <file leaf-file-name="ImageDataWriter.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImageDataWriter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="26" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1156">
+            <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="12.423077" vertical-offset="357" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="httpd.conf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/httpd.conf">
+      <file leaf-file-name="BatchFeatureExtract.bat" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="9197">
+            <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerializeSemanticElements.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SerializeSemanticElements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="54" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8113731" vertical-offset="44" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerializeImageFeatures.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SerializeImageFeatures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="63" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -44,63 +62,7 @@
       <file leaf-file-name="appinfo.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appinfo.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="5" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatlabOutputToJson.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatlabOutputToJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logging.conf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logging.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="12" selection-start="441" selection-end="450" vertical-scroll-proportion="-19.72" vertical-offset="0" max-vertical-offset="663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sys.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sys.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33963" column="0" selection-start="2796024" selection-end="2796024" vertical-scroll-proportion="0.0" vertical-offset="577371" max-vertical-offset="579615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Helpers.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Helpers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="48" selection-start="1810" selection-end="1810" vertical-scroll-proportion="2.9367397" vertical-offset="0" max-vertical-offset="1853">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageList.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ImageList.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="782">
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.TXT.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.TXT.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+            <state line="8" column="1" selection-start="602" selection-end="602" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -118,20 +80,24 @@
       <list>
         <option value="$PROJECT_DIR$/appinfo.json" />
         <option value="$PROJECT_DIR$/SysCall.py" />
-        <option value="$PROJECT_DIR$/Helpers.py" />
         <option value="$PROJECT_DIR$/Bottle500.py" />
         <option value="$PROJECT_DIR$/BatchFeatureExtract.py" />
         <option value="$PROJECT_DIR$/ImageList.py" />
         <option value="$PROJECT_DIR$/MatlabOutputToJson.py" />
         <option value="$PROJECT_DIR$/sys.log" />
+        <option value="$PROJECT_DIR$/Helpers.py" />
+        <option value="$PROJECT_DIR$/BatchFeatureExtract.bat" />
+        <option value="$PROJECT_DIR$/ImageDataWriter.py" />
+        <option value="$PROJECT_DIR$/SerializeImageFeatures.py" />
+        <option value="$PROJECT_DIR$/SerializeSemanticElements.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
-    <option name="y" value="10" />
+    <option name="x" value="175" />
+    <option name="y" value="62" />
     <option name="width" value="1280" />
-    <option name="height" value="780" />
+    <option name="height" value="842" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -225,7 +191,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.ImageList">
+  <component name="RunManager" selected="Python.ImageDataWriter">
     <configuration default="false" name="BatchFeatureExtract" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,6 +227,24 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ImageDataWriter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageDataWriter.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -385,14 +369,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.BatchFeatureExtract" />
       <item index="1" class="java.lang.String" itemvalue="Python.ImageList" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ImageDataWriter" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.ImageList" />
-        <item index="1" class="java.lang.String" itemvalue="Python.BatchFeatureExtract" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.ImageDataWriter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ImageList" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BatchFeatureExtract" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +409,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="10" width="1280" height="780" extended-state="0" />
+    <frame x="175" y="62" width="1280" height="842" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -432,10 +418,10 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2094065" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2735849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31240875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28647926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1881299" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3601071" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -467,15 +453,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="20" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#23#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bottle500.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
@@ -534,15 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="969">
-          <folding>
-            <element signature="e#23#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SysCall.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="35" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
@@ -571,27 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.TXT.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appinfo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="5" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="441" selection-end="450" vertical-scroll-proportion="-19.72" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bottle500.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -608,23 +555,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/httpd.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/os.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="290" column="0" selection-start="9442" selection-end="9442" vertical-scroll-proportion="0.0" vertical-offset="4767" max-vertical-offset="12682">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33963" column="0" selection-start="2796024" selection-end="2796024" vertical-scroll-proportion="0.0" vertical-offset="577371" max-vertical-offset="579615">
           <folding />
         </state>
       </provider>
@@ -643,12 +576,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageList.py">
+    <entry file="file://$PROJECT_DIR$/Helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="782">
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
+        <state line="30" column="41" selection-start="631" selection-end="631" vertical-scroll-proportion="0.33090025" vertical-offset="306" max-vertical-offset="2465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34539" column="0" selection-start="2845368" selection-end="2845368" vertical-scroll-proportion="0.0" vertical-offset="587163" max-vertical-offset="589407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="12" selection-start="441" selection-end="450" vertical-scroll-proportion="1.1738095" vertical-offset="0" max-vertical-offset="663">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -659,16 +604,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.py">
+    <entry file="file://$PROJECT_DIR$/httpd.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1156">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9197">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Helpers.py">
+    <entry file="file://$PROJECT_DIR$/ImageList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="48" selection-start="1810" selection-end="1810" vertical-scroll-proportion="2.9367397" vertical-offset="0" max-vertical-offset="1853">
+        <state line="20" column="20" selection-start="370" selection-end="370" vertical-scroll-proportion="0.6689815" vertical-offset="51" max-vertical-offset="782">
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.TXT.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appinfo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="602" selection-end="602" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageDataWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="12.423077" vertical-offset="357" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerializeImageFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="63" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerializeSemanticElements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="54" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8113731" vertical-offset="44" max-vertical-offset="765">
           <folding />
         </state>
       </provider>

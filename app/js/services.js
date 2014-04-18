@@ -33,6 +33,13 @@ fqServices.factory('LocationLookupService', ['$resource',
         });
 }]);
 
+fqServices.factory('QuerySubmitService', ['$resource', '$http',
+    function($resource){
+        return $resource('/services/query',null , {
+            'queryString': { method:'POST', data : {} }
+        });
+ }]);
+
 /*
 fqServices.factory('Locale',['$resource' function($q, $timeout, $resource) {
 	var locations = function() {

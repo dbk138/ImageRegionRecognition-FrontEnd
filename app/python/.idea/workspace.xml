@@ -23,37 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImageDataWriter.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ImageDataWriter.py">
+      <file leaf-file-name="ProcessImage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProcessImage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="12.423077" vertical-offset="357" max-vertical-offset="1836">
+            <state line="11" column="25" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatchFeatureExtract.bat" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.bat">
+      <file leaf-file-name="Helpers.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="170">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializeSemanticElements.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SerializeSemanticElements.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="54" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8113731" vertical-offset="44" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializeImageFeatures.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SerializeImageFeatures.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="63" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1054">
+            <state line="148" column="44" selection-start="3894" selection-end="3922" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="4046">
               <folding />
             </state>
           </provider>
@@ -62,7 +44,45 @@
       <file leaf-file-name="appinfo.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appinfo.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="602" selection-end="602" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="238">
+            <state line="4" column="88" selection-start="324" selection-end="324" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sys.log" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sys.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="844" column="65" selection-start="43971" selection-end="43971" vertical-scroll-proportion="0.51821864" vertical-offset="14092" max-vertical-offset="14586">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerializeSemanticElements.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SerializeSemanticElements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="11" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="884">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bottle500.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bottle500.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="33" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="731">
+              <folding>
+                <element signature="e#109#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestProcessImage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestProcessImage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="96" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -80,23 +100,25 @@
       <list>
         <option value="$PROJECT_DIR$/appinfo.json" />
         <option value="$PROJECT_DIR$/SysCall.py" />
-        <option value="$PROJECT_DIR$/Bottle500.py" />
         <option value="$PROJECT_DIR$/BatchFeatureExtract.py" />
         <option value="$PROJECT_DIR$/ImageList.py" />
         <option value="$PROJECT_DIR$/MatlabOutputToJson.py" />
-        <option value="$PROJECT_DIR$/sys.log" />
         <option value="$PROJECT_DIR$/Helpers.py" />
         <option value="$PROJECT_DIR$/BatchFeatureExtract.bat" />
         <option value="$PROJECT_DIR$/ImageDataWriter.py" />
         <option value="$PROJECT_DIR$/SerializeImageFeatures.py" />
         <option value="$PROJECT_DIR$/SerializeSemanticElements.py" />
+        <option value="$PROJECT_DIR$/ProcessImage.py" />
+        <option value="$PROJECT_DIR$/TestProcessImage.py" />
+        <option value="$PROJECT_DIR$/Bottle500.py" />
+        <option value="$PROJECT_DIR$/sys.log" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="175" />
-    <option name="y" value="62" />
-    <option name="width" value="1280" />
+    <option name="x" value="167" />
+    <option name="y" value="14" />
+    <option name="width" value="1364" />
     <option name="height" value="842" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -147,7 +169,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,6 +197,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,7 +213,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.ImageDataWriter">
+  <component name="RunManager" selected="Python.Bottle500">
     <configuration default="false" name="BatchFeatureExtract" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,6 +268,24 @@
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Bottle500" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bottle500.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -369,16 +409,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.BatchFeatureExtract" />
       <item index="1" class="java.lang.String" itemvalue="Python.ImageList" />
       <item index="2" class="java.lang.String" itemvalue="Python.ImageDataWriter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Bottle500" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.ImageDataWriter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ImageList" />
-        <item index="2" class="java.lang.String" itemvalue="Python.BatchFeatureExtract" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Bottle500" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ImageDataWriter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ImageList" />
+        <item index="3" class="java.lang.String" itemvalue="Python.BatchFeatureExtract" />
       </list>
     </recent_temporary>
   </component>
@@ -409,26 +451,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="62" width="1280" height="842" extended-state="0" />
+    <frame x="167" y="14" width="1364" height="842" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2094065" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2735849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28647926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25663716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28647926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3601071" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2094065" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -446,41 +488,160 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Bottle500.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/ProcessImage.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/TestProcessImage.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="24" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ImageDataWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="70" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProcessImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="106" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerializeSemanticElements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="11" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bottle500.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="77" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="714">
+          <folding>
+            <element signature="e#109#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProcessImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageDataWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerializeSemanticElements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="11" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bottle500.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="493">
+          <folding>
+            <element signature="e#109#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerializeImageFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="63" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appinfo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageDataWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerializeSemanticElements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="54" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerializeImageFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="63" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appinfo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bottle500.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
           <folding>
-            <element signature="e#109#160#0" expanded="false" />
+            <element signature="e#109#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MatlabOutputToJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1105">
-          <folding />
-        </state>
+        <state line="33" column="35" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SysCall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="18" column="35" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sys.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appinfo.json">
@@ -492,37 +653,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logging.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="441" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="29" column="12" selection-start="441" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="45" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1921">
-          <folding />
-        </state>
+        <state line="88" column="45" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1921" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.TXT.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SysCall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="19" column="35" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sys.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1240" column="0" selection-start="81020" selection-end="81020" vertical-scroll-proportion="0.0" vertical-offset="24795" max-vertical-offset="30940">
-          <folding />
-        </state>
+        <state line="1240" column="0" selection-start="81020" selection-end="81020" vertical-scroll-proportion="0.0" vertical-offset="24795" max-vertical-offset="30940" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appinfo.json">
@@ -534,130 +685,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bottle500.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding>
-            <element signature="e#109#160#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SysCall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="12" column="15" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="0" selection-start="9442" selection-end="9442" vertical-scroll-proportion="0.0" vertical-offset="4767" max-vertical-offset="12682">
-          <folding />
-        </state>
+        <state line="290" column="0" selection-start="9442" selection-end="9442" vertical-scroll-proportion="0.0" vertical-offset="4767" max-vertical-offset="12682" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="56" selection-start="6195" selection-end="6195" vertical-scroll-proportion="12.9625" vertical-offset="0" max-vertical-offset="9061">
-          <folding />
-        </state>
+        <state line="189" column="56" selection-start="6195" selection-end="6195" vertical-scroll-proportion="12.9625" vertical-offset="0" max-vertical-offset="9061" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="0" selection-start="6793" selection-end="6793" vertical-scroll-proportion="0.6245211" vertical-offset="2200" max-vertical-offset="5576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="41" selection-start="631" selection-end="631" vertical-scroll-proportion="0.33090025" vertical-offset="306" max-vertical-offset="2465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34539" column="0" selection-start="2845368" selection-end="2845368" vertical-scroll-proportion="0.0" vertical-offset="587163" max-vertical-offset="589407">
-          <folding />
-        </state>
+        <state line="141" column="0" selection-start="6793" selection-end="6793" vertical-scroll-proportion="0.6245211" vertical-offset="2200" max-vertical-offset="5576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logging.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="441" selection-end="450" vertical-scroll-proportion="1.1738095" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="29" column="12" selection-start="441" selection-end="450" vertical-scroll-proportion="1.1738095" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MatlabOutputToJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/httpd.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9197">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9197" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="370" selection-end="370" vertical-scroll-proportion="0.6689815" vertical-offset="51" max-vertical-offset="782">
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="20" selection-start="370" selection-end="370" vertical-scroll-proportion="0.6689815" vertical-offset="51" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.TXT.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appinfo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="602" selection-end="602" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1156" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BatchFeatureExtract.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageDataWriter.py">
+    <entry file="file://$PROJECT_DIR$/UnitTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="12.423077" vertical-offset="357" max-vertical-offset="1836">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.38857144" vertical-offset="0" max-vertical-offset="700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SerializeImageFeatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="63" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1054">
+        <state line="48" column="63" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.46571428" vertical-offset="422" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processImage.out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="45" selection-start="274" selection-end="274" vertical-scroll-proportion="0.34979424" vertical-offset="0" max-vertical-offset="486">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SerializeSemanticElements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="54" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8113731" vertical-offset="44" max-vertical-offset="765">
+        <state line="47" column="11" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bottle500.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="33" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="731">
+          <folding>
+            <element signature="e#109#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageDataWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="70" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appinfo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="88" selection-start="324" selection-end="324" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProcessImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="44" selection-start="3894" selection-end="3922" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="4046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProcessImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="96" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="844" column="65" selection-start="43971" selection-end="43971" vertical-scroll-proportion="0.51821864" vertical-offset="14092" max-vertical-offset="14586">
           <folding />
         </state>
       </provider>

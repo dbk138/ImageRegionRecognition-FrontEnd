@@ -48,10 +48,6 @@ body {
     text-align: left;
 }
 
-.imageTable {
-    margin-top: 25px;
- }
-
 .imageTable td {
     vertical-align: baseline;
     text-align: center;
@@ -60,8 +56,9 @@ body {
 }
 .imageTable td img {
     vertical-align: top;
-    margin-left: 55px;
-    margin-bottom: 20px;
+	padding: 8px;
+    /*margin-left: 55px;
+    margin-bottom: 20px;*/
 }
 
 #query {

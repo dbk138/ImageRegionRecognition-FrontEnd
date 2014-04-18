@@ -1,0 +1,67 @@
+<div>
+    <!--Body content-->
+    <div ng-controller="ImageCtrl2">
+
+        
+        <div class="row">
+            <table>
+				<tr><p><b> You Have Chosen:{{imageName.replace('_','/')}}</b></p><br></tr>
+				<tr>
+					<td><img ng-src="images/{{imageName.replace('_','/')}}" class="mainImage"></td>
+					<td><img ng-src="images/{{imageName.replace('_','/').replace('.jpg','LC.jpg')}}" class="summaryImage"></td>
+					<td><!-- insert 3rd image link here --></td>
+					<td><table>
+							<tr><th colspan="3">Semantic classification and percentage</th></tr>
+							<tr ng-repeat="(key,value) in summaryInfo">
+								<td align="left">{{key}}</td><td>:</td><td align="right"><b>{{ value }}%</b></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+            </table>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row" ng-controller="autocompleteCtrl">
+			{{ queryResult }}
+            <div id="query">
+                {{query}}
+            </div>
+            <p>Start typing your query... e.g: ( color_b_kurtosis > 30 and area_median < 40 ) or ( area_quantile250 > 34 and orientation_kurtosis < 5 )</p>
+            <textarea rows="5"  cols="50" id='tags' autocomplete="autocomplete" ng-model="query"/>
+			<br />
+			<div style="width: 970px;">
+				<button class="btn btn-primary" style="float:right;" ng-click="submitQuery()">Submit</button>
+			</div>
+        </div>
+
+    <div class="row selectLocation">
+        <div>
+
+			<br />
+            Location:<select  ng-model="location" ng-options="location.name for location in locations | toArray | orderBy: 'name'"></select>
+        </div>
+		<div class="imageTable">
+			<table>
+				<tr>
+					<td ng-repeat="images in location.images">
+						{{images.name}}
+						<a href="#/image/{{images.name.replace('/','_')}}">
+							<img alt="" ng-src="images/{{images.name}}" class="thumb">
+						</a>
+					</td>
+					<td>
+
+					</td>
+				</tr>
+			</table>
+		</div>
+    </div>
+</div>
+
+
+
+
+
+

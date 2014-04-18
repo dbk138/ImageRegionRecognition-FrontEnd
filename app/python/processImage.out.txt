@@ -1,0 +1,14 @@
+
+queryString =
+
+Area_35_500&Perimeter_50_300
+
+Area_35_500&Perimeter_50_300
+[Warning: Image is too big to fit on screen; displaying at 50%] 
+[> In imuitools\private\initSize at 72
+  In imshow at 283
+  In ProcessImage at 164] 
+[Warning: Image is too big to fit on screen; displaying at 50%] 
+[> In imuitools\private\initSize at 72
+  In imshow at 283
+  In ProcessImage at 187] 

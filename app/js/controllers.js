@@ -25,19 +25,45 @@ featureQueryControllers.controller('LocaleCtrl', function($scope, Locale) {
 		});
 });
 
-featureQueryControllers.controller( 'autocompleteCtrl' , function ($scope, $http) {
-    var words = [];
-    $http.get('data/featureLookup.json').success(function(data) {
+featureQueryControllers.controller('autocompleteCtrl' , function ($scope, $http) {
+    var words = ['Area','Centroid','EulerNumber','BoundingBox', 'Extent','Perimeter','Orientation', 'ConvexArea','FilledArea','Eccentricity','MajorAxisLength',
+            'Solidity','EquivDiameter','MinorAxisLength'];
+    /*$http.get('data/featureLookup.json').success(function(data) {
         for(var key in data) {
             words.push(key);
             //words.push(data[key].category);
         }
         words.sort();
-    });
+    });*/
     $scope.tags = "";
     $scope.availableTags = words;
+	
+	$scope.errors = [];
+    $scope.msgs = [];
+	
+	$scope.submitQuery = function() {
+	
+		 $scope.errors.splice(0, $scope.errors.length); // remove all error messages
+		 $scope.msgs.splice(0, $scope.msgs.length);
+		 
+		 var img = "C:\\Users\\geoimages\\angular-seed\\app\\images\\" + $scope.imageName.replace('_','\\');
+		 var lcImage = "C:\\Users\\geoimages\\angular-seed\\app\\images\\" + $scope.imageName.replace('_','\\').replace('.jpg','LC.jpg');
+		 var dir = "C:\\Users\\geoimages\\angular-seed\\app\\images\\" + $scope.imageName.substring(0, $scope.imageName.indexOf('_')) + "\\\\";		
+			
+		$http.post('/services/query', {
+			'imgName': img,
+			'lcImageName': lcImage,
+			'queryString': $scope.query,
+			'directory': dir
+		}).success(function(data, status, headers, config) {
+			$scope.msgs.push("Your query was submitted successfully.");	
+		}).error(function() {
+			$scope.errors.push(status);
+		});
+	};
+	
 });
-
+/*
 featureQueryControllers.controller('SubmitQuery', ['$scope','FeatureQueryService',function($scope, FeatureQueryService) {
 
     $scope.queryFeature = {};
@@ -52,7 +78,7 @@ featureQueryControllers.controller('SubmitQuery', ['$scope','FeatureQueryService
         FeatureQueryService.update($scope.queryFeatureValue,$ret)
     }
 }]);
-
+*/
 
 featureQueryControllers.controller('ImageCtrl2', ['$scope', '$http', '$routeParams','ImageService','FeatureLookupService', 'LocationLookupService',
     function($scope, $http, $routeParams, ImageService, FeatureLookupService, LocationLookupService) {
@@ -111,10 +137,11 @@ featureQueryControllers.controller('ImageCtrl2', ['$scope', '$http', '$routePara
                 var maxValue = Math.max.apply(this, max);
 
                 for( var key in summaryInfo) {
-                    if(summaryInfo[key] === maxValue.toString()) {
-                        element = key;
-                        value = (parseFloat(summaryInfo[key]) * 100).toFixed(2);
-                    }
+                    //if(summaryInfo[key] === maxValue.toString()) {
+                        //element = key;
+                        //value = (parseFloat(summaryInfo[key]) * 100).toFixed(2);
+				summaryInfo[key] = (parseFloat(summaryInfo[key]) * 100).toFixed(2);
+                    //}
                 }
 
                 $scope.classification = element;

@@ -1,0 +1,5 @@
+args <- commandArgs(trailingOnly = TRUE)
+d <- read.table(args[1],header=TRUE, sep=",")
+x <- tapply ( d$val, d$key, args[2])
+format ( x, nsmall=5,scientific=FALSE )
+write.csv(x, file = args[3])

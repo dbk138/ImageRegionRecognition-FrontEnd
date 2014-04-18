@@ -4,9 +4,7 @@
 
 var featureQueryApp = angular.module('featureQueryApp', [
     'ngRoute',
-   'featureQueryControllers', 'fqServices','featureQueryDirectives'
-
-
+   'featureQueryControllers', 'fqServices','featureQueryDirectives', 'featureQueryFilters'
 ]);
 
 featureQueryApp.config(['$routeProvider',
@@ -15,8 +13,14 @@ featureQueryApp.config(['$routeProvider',
             when('/locations', {
                 templateUrl: 'partials/locations.html'
             }).
+            when('/jlocations', {
+                templateUrl: 'partials/jlocations.html'
+            }).
             when('/image/:imageName', {
                 templateUrl: 'partials/image.html'
+            }).
+            when('/jimage/:imageName', {
+                templateUrl: 'partials/jimage.html'
             }).
 			when('/logs', {
                 templateUrl: 'partials/logs.html'

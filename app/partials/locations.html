@@ -1,9 +1,9 @@
 <div ng-controller="LocationListCtrl">
     <!--Body content-->
     <h2>Select Image</h2>
-    <select  ng-model="location" ng-options="location.name for location in locations"></select>
-    <div class="container-fluid">
-        <table class="imageTable">
+    <select  ng-model="location" ng-options="location.name for location in locations | toArray | orderBy: 'name'"></select>
+    <div class="imageTable">
+        <table>
             <tr>
                 <td ng-repeat="images in location.images">
                     {{images.name}}

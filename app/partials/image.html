@@ -9,43 +9,56 @@
             <img ng-src="images/{{imageName.replace('_','/').replace('.jpg','LC.jpg')}}" class="summaryImage">
             <table>
                 <tr><th>Semantic classification and percentage</th></tr>
-                <tr><td>{{ classification }}: {{ elementValue }}%</td></tr>
+                <!--<tr><td>{{ classification }}: {{ elementValue }}%</td></tr>-->
+				<tr ng-repeat="(key,value) in summaryInfo"><td>{{key}} : {{ value }}%</td></tr>
             </table>
         </div>
         <div class="row">
 
         </div>
         <div class="row" ng-controller="autocompleteCtrl">
-            <div id="query">
-                {{query}}
-            </div>
-            <p>Start typing your query... e.g: ( color_b_kurtosis > 30 and area_median < 40 ) or ( area_quantile250 > 34 and orientation_kurtosis < 5 )</p>
-            <textarea rows="5"  cols="50" id='tags' autocomplete="autocomplete" ng-model="query"/>
-			<br />
-			<div style="width: 970px;">
-				<button class="btn btn-primary" style="float:right;" ng-click="submitQuery()">Submit</button>
-			</div>
+			<div id="messages" ng-show="msgs">{{msgs}}</div>
+			<div id="messages" ng-show="errors">{{errors}}</div>
+				<div id="query">
+					<pre>
+						query:{{query}}
+					</pre>
+				</div>
+			<form ng-submit="submitQuery()">
+				<p>Start typing your query... e.g: ( Area_35_500#Perimeter_50_300 )</p>
+				<!--<textarea rows="5" cols="50" id='tags' autocomplete="autocomplete" ng-model="query"/>-->
+				<div class="form-group">
+					<label>Query:</label>
+					<input type="text" class="form-control" id='tags' name="queryString" ng-model="query" autocomplete="autocomplete">
+				</div>
+				<div style="width: 970px;">
+					<input class="btn btn-primary" type="submit" value="Submit">
+					<!--<button class="btn btn-primary" style="float:right;" ng-click="submitQuery()">Submit</button>-->
+				</div>
+			</form>
         </div>
 
     <div class="row selectLocation">
         <div>
 
 			<br />
-            Location:<select  ng-model="location" ng-options="location.name for location in locations"></select>
+            Location:<select  ng-model="location" ng-options="location.name for location in locations | toArray | orderBy: 'name'"></select>
         </div>
-        <table class="imageTable">
-            <tr>
-                <td ng-repeat="images in location.images">
-                    {{images.name}}
-                    <a href="#/image/{{images.name.replace('/','_')}}">
-                        <img alt="" ng-src="images/{{images.name}}" class="thumb">
-                    </a>
-                </td>
-                <td>
+		<div class="imageTable">
+			<table>
+				<tr>
+					<td ng-repeat="images in location.images">
+						{{images.name}}
+						<a href="#/image/{{images.name.replace('/','_')}}">
+							<img alt="" ng-src="images/{{images.name}}" class="thumb">
+						</a>
+					</td>
+					<td>
 
-                </td>
-            </tr>
-        </table>
+					</td>
+				</tr>
+			</table>
+		</div>
     </div>
 </div>
 

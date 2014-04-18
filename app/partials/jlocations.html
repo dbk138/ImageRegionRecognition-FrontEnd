@@ -1,0 +1,17 @@
+<div ng-controller="LocationListCtrl">
+    <!--Body content-->
+    <h2>Select A J Image</h2>
+    <select  ng-model="location" ng-options="location.name for location in locations | toArray | orderBy: 'name'"></select>
+    <div class="imageTable">
+        <table>
+            <tr>
+                <td ng-repeat="images in location.images">
+                    {{images.name}}
+                    <a href="#/jimage/{{images.name.replace('/','_')}}">
+                        <img  alt=""  ng-src="images/{{images.name}}" class="thumb">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
