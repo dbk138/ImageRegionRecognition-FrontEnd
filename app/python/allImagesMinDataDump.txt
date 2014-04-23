@@ -152,7 +152,7 @@
 "obj_EulerNumber_std",0.152477210494
 "obj_Extent_kurtosis",1.73756263621
 "obj_Extent_mean",0.413491376341
-"obj_Extent_median",0.4125
+"obj_Extent_median",0.413333333333
 "obj_Extent_quantile025",0.0243818865795
 "obj_Extent_quantile250",0.264822134387
 "obj_Extent_quantile750",0.511944444444

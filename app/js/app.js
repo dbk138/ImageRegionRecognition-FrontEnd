@@ -22,8 +22,14 @@ featureQueryApp.config(['$routeProvider',
             when('/jimage/:imageName', {
                 templateUrl: 'partials/jimage.html'
             }).
-			when('/logs', {
-                templateUrl: 'partials/logs.html'
+			when('/syslog', {
+                templateUrl: 'partials/syslog.html'
+            }).
+			when('/querylog', {
+                templateUrl: 'partials/querylog.html'
+            }).
+			when('/testlog', {
+                templateUrl: 'partials/unittestlog.html'
             }).
             otherwise({
                 redirectTo: '/locations'

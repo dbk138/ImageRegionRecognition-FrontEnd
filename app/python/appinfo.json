@@ -1,11 +1,14 @@
 {
   "imageLocation" : "C:\\Users\\geoimages\\angular-seed\\app\\images"
 , "imageData" : "C:\\Users\\geoimages\\angular-seed\\app\\data\\images"
+, "imageOutput" : "C:\\Users\\geoimages\\angular-seed\\app\\_output\\"
 , "matlabFeatureExtractScript" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\features500.bat"
 , "matlabProcessImageScript" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\processImage500.bat"
+, "matlabProcessImageOutputFile" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\ProcessImage.out.txt"
 , "matlabFeatureOutputFile" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\featuresForImage.out.txt"
 , "testImage" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\test.jpg"
 , "matlabSemanticElementsOutputFile" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\semElements.out.txt"
+, "matlabSemanticElementsCsvFile" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\landcover.csv"
 , "matlabSemanticElementsScript" : "D:\\SWENG_500_GRP_1\\SWENG_500\\_Matlab\\semElements500.bat"
 , "R_min_max_script" : "C:\\Users\\geoimages\\angular-seed\\app\\python\\MinMax.R"
 , "AllImagesDataDumpFile" : "C:\\Users\\geoimages\\angular-seed\\app\\python\\allImagesDataDump.txt"
@@ -13,4 +16,5 @@
 , "AllImagesMaxDataDumpFile" : "C:\\Users\\geoimages\\angular-seed\\app\\python\\allImagesMaxDataDump.txt"
 , "FeatureLookupDataFile" : "C:\\Users\\geoimages\\angular-seed\\app\\data\\featureLookup.json"
 , "BatchSystemEnabledFile" : "C:\\Users\\geoimages\\angular-seed\\app\\python\\BatchSystemEnabled.json"
+, "LandCoverReference" : "C:\\Users\\geoimages\\angular-seed\\app\\python\\LandCoverReference.json"
 }

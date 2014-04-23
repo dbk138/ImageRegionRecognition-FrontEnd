@@ -1,21 +1,26 @@
+import logging
+import logging.config
+logging.config.fileConfig('queryLogging.conf')
+logger = logging.getLogger('ProcessImage')
+
 import Helpers
 import SysCall
-import logging
-
-logging.config.fileConfig('logging.conf')
-logger = logging.getLogger('ProcessImage.py')
+import sys
+import os
 
 
 
-def process_image(imageName, lcImageName, queryString, directory):
+def process_image(imageName, lcImageName, queryString, dir):
     try:
-        matLabProcessImageScr=Helpers.getMatLabProcessImageScript()
-        logger.info('Running '+ matLabProcessImageScr + ' for: ' + imageName+' '+ queryString+' '+lcImageName+' '+directory)
-        out,err,retCd = SysCall.sh([matLabProcessImageScr, '"'+imageName+'"', '"'+lcImageName+'"', queryString, '"'+directory+'"', 'false'])
+        Helpers.removeMatLabProcessImageOutputFile()
+        directory = Helpers.getImageOutputLoc() + dir
 
-        logger.info(out)
-        logger.info(err)
-        logger.info(retCd)
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
+        matLabProcessImageScr=Helpers.getMatLabProcessImageScript()
+        logger.info('Start Query')
+        out,err,retCd = SysCall.sh([matLabProcessImageScr, '"'+imageName+'"', '"'+lcImageName+'"', queryString, '"'+directory+'"', 'false', os.path.basename(Helpers.getMatLabProcessImageOutputFile())])
         logger.info('End ')
 
         return  {"ProcesImage": "Success" }

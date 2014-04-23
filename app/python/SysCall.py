@@ -5,6 +5,15 @@ import sys
 import logging
 logger = logging.getLogger('SysCall.py')
 
+
+def shFalse(cmdArray):
+    try:
+        return execute(cmdArray,False)
+    except:
+        logger.exception('Error running command: '+ ' '.join(cmdArray))
+
+    return "error occurred with call:", sys.exc_info() , 1
+
 def sh(cmdArray):
     try:
         return execute(cmdArray,True)

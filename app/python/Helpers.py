@@ -6,10 +6,23 @@ import logging
 import logging.config
 #import sys
 #logging.config.fileConfig('logging.conf')
-logger = logging.getLogger('Helpers.py')
 import re
+import hashlib
+logger = logging.getLogger('Helpers.py')
+
 
 appInfo='appinfo.json'
+
+'''
+Check that the file is not in the process of being copied
+'''
+def fileNotInFlux(fileName):
+    h1=hashlib.md5(open(fileName).read()).hexdigest()
+    time.sleep(.5)
+    if h1 == hashlib.md5(open(fileName).read()).hexdigest():
+        return True # file is same
+    else:
+        return False  # file is being copied
 
 
 def logTest():
@@ -67,6 +80,17 @@ def getImageLocation():
     f=open(appInfo,'r')
     loc=json.load(f)
     return loc['imageLocation']
+
+def getLandCoverReferenceFile():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['LandCoverReference']
+
+def getLandCoverReferenceDict():
+    f=open(getLandCoverReferenceFile(),'r')
+    return json.load(f)
+
+
 
 def getFeatureLookupFileName():
     f=open(appInfo,'r')
@@ -143,6 +167,21 @@ def getMatLabProcessImageScript():
     loc=json.load(f)
     return loc['matlabProcessImageScript']
 
+def getImageOutputLoc():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['imageOutput']
+
+def getMatLabProcessImageOutputFile():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['matlabProcessImageOutputFile']
+
+def removeMatLabProcessImageOutputFile():
+    f=getMatLabProcessImageOutputFile()
+    if os.path.exists(f) and os.path.isfile(f):
+        os.remove(f)
+
 def getMatLabSemanticElementsScript():
     f=open(appInfo,'r')
     loc=json.load(f)
@@ -155,6 +194,16 @@ def getMatlabSemanticElementsOutputFile():
 
 def removeMatlabSemanticElementsOutputFile():
     f=getMatlabSemanticElementsOutputFile()
+    if os.path.exists(f) and os.path.isfile(f):
+        os.remove(f)
+
+def getSemanticElementsCsvFile():
+    f=open(appInfo,'r')
+    loc=json.load(f)
+    return loc['matlabSemanticElementsCsvFile']
+
+def removeMatlabSemanticElementsCsvFile():
+    f=getSemanticElementsCsvFile()
     if os.path.exists(f) and os.path.isfile(f):
         os.remove(f)
 
@@ -197,7 +246,7 @@ def getMainImageFileList():
                     dataFileLastTouched=fileLastTouchedTime(expectedDataFileName)
                 else:
                     dataFileExists=False
-                    dataFileLastTouched=epoch
+                    dataFileLastTouched=epoch  # if no json file set its date to epoch start.
 
                 if dataFileExists and ( mainImageLastTouched > dataFileLastTouched) :
                     dataFileRequiresUpdate=True

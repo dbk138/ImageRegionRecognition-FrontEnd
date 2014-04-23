@@ -39,25 +39,7 @@ fqServices.factory('QuerySubmitService', ['$resource', '$http',
             'queryString': { method:'POST', data : {} }
         });
  }]);
-
-/*
-fqServices.factory('Locale',['$resource' function($q, $timeout, $resource) {
-	var locations = function() {
-		var deferred = $q.defer();
-		
-		$timeout(function($resource) {
-			deferred.resolve(
-				$resource('/services/getlocations', {}, {
-				query: {method:'GET', params:{}, isArray:true}
-        }))
-		}, 2000);
-		
-		return deferred.promise;
-	};
-	
-	return {
-		getLocations: getLocations
-	};
-
-}]);
-*/
+ 
+ fqServices.factory('ProcessData', function() {
+	return {processed: ''};
+ }); 

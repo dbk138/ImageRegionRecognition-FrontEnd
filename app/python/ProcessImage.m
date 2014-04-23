@@ -159,11 +159,11 @@ function [ featureValues ] = ProcessImage( imageName , landcoverImageName, pQuer
     imagen=imadjust(imagen,stretchlim(imagen),[0 1]);
     
 %% Show image
-    if DEBUG
-        figure(1)
-        imshow(imagen);
-        title('INPUT IMAGE WITH NOISE')
-    end
+%    if DEBUG
+%        figure(1)
+%        imshow(imagen);
+%        title('INPUT IMAGE WITH NOISE')
+%    end
 %% Convert to binary image
     imagent = imagen;
     imagent(imagent == min(imagent(:))) = mean(imagen(:));
@@ -182,11 +182,11 @@ function [ featureValues ] = ProcessImage( imageName , landcoverImageName, pQuer
 
     clear se;
 %% Show image binary image
-    if DEBUG
-        figure(2)
-        imshow(~imagent);
-        title('INPUT IMAGE WITHOUT NOISE')
-    end
+%    if DEBUG
+%        figure(2)
+%        imshow(~imagent);
+%        title('INPUT IMAGE WITHOUT NOISE')
+%    end
 %% Label connected components
     [L1,num1]=bwlabel(imagent);
 %% Label inverse connected components

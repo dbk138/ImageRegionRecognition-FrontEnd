@@ -65,3 +65,7 @@ list-style: none;
 	overflow: scroll; /* Scrollbar are always visible */
 	overflow: auto;   /* Scrollbar is displayed as it's needed */
 }
+
+pre {
+	text-align: left;
+}
